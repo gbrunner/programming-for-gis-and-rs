@@ -1,0 +1,2276 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "dpuq-z7nj",
+      "name" : "Monthly Pre-Existing Condition Insurance Plan Enrollment (State by State)",
+      "attribution" : "U.S. Department of Health & Human Services",
+      "attributionLink" : "http://www.healthcare.gov/law/features/choices/pre-existing-condition-insurance-plan/index.html",
+      "averageRating" : 0,
+      "category" : "Health",
+      "createdAt" : 1355492125,
+      "description" : "The Affordable Care Act created the new Pre-Existing Condition Insurance Plan (PCIP) program to make health insurance available to Americans denied coverage by private insurance companies because of a pre-existing condition.  Coverage for people living with such conditions as diabetes, asthma, cancer, and HIV/AIDS has often been priced out of the reach of most Americans who buy their own insurance, and this has resulted in a lack of coverage for millions. The temporary program covers a broad range of health benefits and is designed as a bridge for people with pre-existing conditions who cannot obtain health insurance coverage in today’s private insurance market. To learn more, visit PCIP.gov or HealthCare.gov.\r\n\r\nNote: * Massachusetts and Vermont are guarantee issue states that have already implemented many of the broader market reforms included in the Affordable Care Act that take effect in 2014.  Existing commercial plans offering guaranteed coverage at premiums comparable to PCIP are already available in both states.",
+      "displayType" : "table",
+      "downloadCount" : 1080,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1399521409,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 7939677,
+      "provenance" : "community",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1399477978,
+      "publicationGroup" : 556184,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1399477954,
+      "rowsUpdatedBy" : "ftvx-3hkx",
+      "tableId" : 1572713,
+      "totalTimesRated" : 0,
+      "viewCount" : 34910,
+      "viewLastModified" : 1399477978,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 147175507,
+        "name" : "State",
+        "dataTypeName" : "text",
+        "fieldName" : "state",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 6073859,
+        "width" : 110,
+        "cachedContents" : {
+          "non_null" : 52,
+          "largest" : "Wyoming",
+          "null" : 0,
+          "top" : [ {
+            "item" : "South Dakota",
+            "count" : 20
+          }, {
+            "item" : "Tennessee",
+            "count" : 19
+          }, {
+            "item" : "Texas",
+            "count" : 18
+          }, {
+            "item" : "Utah",
+            "count" : 17
+          }, {
+            "item" : "Vermont*",
+            "count" : 16
+          }, {
+            "item" : "Virginia",
+            "count" : 15
+          }, {
+            "item" : "Washington",
+            "count" : 14
+          }, {
+            "item" : "West Virginia",
+            "count" : 13
+          }, {
+            "item" : "Wisconsin",
+            "count" : 12
+          }, {
+            "item" : "Wyoming",
+            "count" : 11
+          }, {
+            "item" : "Total",
+            "count" : 10
+          } ],
+          "smallest" : "Alabama"
+        },
+        "format" : { }
+      }, {
+        "id" : 147175508,
+        "name" : "Federally/State Administered",
+        "dataTypeName" : "text",
+        "fieldName" : "federally_state_administered",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 6073860,
+        "width" : 295,
+        "cachedContents" : {
+          "non_null" : 51,
+          "largest" : "Transitioned from State to Federally-administered program 7/1/2013",
+          "null" : 1,
+          "top" : [ {
+            "item" : "Federal",
+            "count" : 20
+          }, {
+            "item" : "State",
+            "count" : 19
+          }, {
+            "item" : "Transitioned from State to Federally-administered program 7/1/2013",
+            "count" : 18
+          } ],
+          "smallest" : "Federal"
+        },
+        "format" : { }
+      }, {
+        "id" : 147175509,
+        "name" : "Enrolled Through January 31, 2014  ",
+        "dataTypeName" : "number",
+        "fieldName" : "enrolled_through_january_31_2014",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 18620811,
+        "width" : 224,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "752.6538461538462",
+          "largest" : "19569",
+          "null" : 0,
+          "top" : [ {
+            "item" : "23",
+            "count" : 20
+          }, {
+            "item" : "0",
+            "count" : 19
+          }, {
+            "item" : "104",
+            "count" : 18
+          }, {
+            "item" : "897",
+            "count" : 17
+          }, {
+            "item" : "55",
+            "count" : 16
+          }, {
+            "item" : "32",
+            "count" : 15
+          }, {
+            "item" : "719",
+            "count" : 14
+          }, {
+            "item" : "48",
+            "count" : 13
+          }, {
+            "item" : "19569",
+            "count" : 12
+          } ],
+          "smallest" : "0",
+          "sum" : "39138"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "center"
+        }
+      }, {
+        "id" : 147175511,
+        "name" : "Enrolled Through December 31, 2013",
+        "dataTypeName" : "number",
+        "fieldName" : "enrolled_through_december_31_2013",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 18123120,
+        "width" : 229,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "815.6538461538462",
+          "largest" : "21207",
+          "null" : 0,
+          "top" : [ {
+            "item" : "25",
+            "count" : 20
+          }, {
+            "item" : "0",
+            "count" : 19
+          }, {
+            "item" : "107",
+            "count" : 18
+          }, {
+            "item" : "1",
+            "count" : 17
+          }, {
+            "item" : "910",
+            "count" : 16
+          }, {
+            "item" : "57",
+            "count" : 15
+          }, {
+            "item" : "33",
+            "count" : 14
+          }, {
+            "item" : "708",
+            "count" : 13
+          }, {
+            "item" : "52",
+            "count" : 12
+          }, {
+            "item" : "21207",
+            "count" : 11
+          } ],
+          "smallest" : "0",
+          "sum" : "42414"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175512,
+        "name" : "Enrolled Through November 30, 2013",
+        "dataTypeName" : "number",
+        "fieldName" : "enrolled_through_november_30_2013",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 17640196,
+        "width" : 225,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "2986.076923076923",
+          "largest" : "77638",
+          "null" : 0,
+          "top" : [ {
+            "item" : "119",
+            "count" : 20
+          }, {
+            "item" : "1534",
+            "count" : 19
+          }, {
+            "item" : "7168",
+            "count" : 18
+          }, {
+            "item" : "613",
+            "count" : 17
+          }, {
+            "item" : "3",
+            "count" : 16
+          }, {
+            "item" : "2412",
+            "count" : 15
+          }, {
+            "item" : "368",
+            "count" : 14
+          }, {
+            "item" : "153",
+            "count" : 13
+          }, {
+            "item" : "1939",
+            "count" : 12
+          }, {
+            "item" : "235",
+            "count" : 11
+          }, {
+            "item" : "77638",
+            "count" : 10
+          } ],
+          "smallest" : "3",
+          "sum" : "155276"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175513,
+        "name" : "Enrolled Through October 31, 2013",
+        "dataTypeName" : "number",
+        "fieldName" : "enrolled_through_october_31_2013",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 16920909,
+        "width" : 214,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "3165.019230769231",
+          "largest" : "82280",
+          "null" : 0,
+          "top" : [ {
+            "item" : "131",
+            "count" : 20
+          }, {
+            "item" : "1602",
+            "count" : 19
+          }, {
+            "item" : "7496",
+            "count" : 18
+          }, {
+            "item" : "664",
+            "count" : 17
+          }, {
+            "item" : "3",
+            "count" : 16
+          }, {
+            "item" : "2520",
+            "count" : 15
+          }, {
+            "item" : "387",
+            "count" : 14
+          }, {
+            "item" : "163",
+            "count" : 13
+          }, {
+            "item" : "2091",
+            "count" : 12
+          }, {
+            "item" : "246",
+            "count" : 11
+          }, {
+            "item" : "82280",
+            "count" : 10
+          } ],
+          "smallest" : "3",
+          "sum" : "164581"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175514,
+        "name" : "Enrolled Through September 30, 2013",
+        "dataTypeName" : "number",
+        "fieldName" : "enrolled_through_september_30_2013",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 16246976,
+        "width" : 231,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "3299.923076923077",
+          "largest" : "85798",
+          "null" : 0,
+          "top" : [ {
+            "item" : "134",
+            "count" : 20
+          }, {
+            "item" : "1664",
+            "count" : 19
+          }, {
+            "item" : "7770",
+            "count" : 18
+          }, {
+            "item" : "697",
+            "count" : 17
+          }, {
+            "item" : "2",
+            "count" : 16
+          }, {
+            "item" : "2598",
+            "count" : 15
+          }, {
+            "item" : "411",
+            "count" : 14
+          }, {
+            "item" : "171",
+            "count" : 13
+          }, {
+            "item" : "2091",
+            "count" : 12
+          }, {
+            "item" : "251",
+            "count" : 11
+          }, {
+            "item" : "85798",
+            "count" : 10
+          } ],
+          "smallest" : "2",
+          "sum" : "171596"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175515,
+        "name" : "Enrolled Through August 31, 2013",
+        "dataTypeName" : "number",
+        "fieldName" : "enrolled_through_august_31_2013",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 16246974,
+        "width" : 212,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "3439.923076923077",
+          "largest" : "89438",
+          "null" : 0,
+          "top" : [ {
+            "item" : "141",
+            "count" : 20
+          }, {
+            "item" : "1710",
+            "count" : 19
+          }, {
+            "item" : "8044",
+            "count" : 18
+          }, {
+            "item" : "736",
+            "count" : 17
+          }, {
+            "item" : "2",
+            "count" : 16
+          }, {
+            "item" : "2678",
+            "count" : 15
+          }, {
+            "item" : "443",
+            "count" : 14
+          }, {
+            "item" : "175",
+            "count" : 13
+          }, {
+            "item" : "2137",
+            "count" : 12
+          }, {
+            "item" : "255",
+            "count" : 11
+          }, {
+            "item" : "89438",
+            "count" : 10
+          } ],
+          "smallest" : "2",
+          "sum" : "178876"
+        },
+        "format" : { }
+      }, {
+        "id" : 147175516,
+        "name" : "Enrolled Through July 31, 2013",
+        "dataTypeName" : "number",
+        "fieldName" : "enrolled_through_july_31_2013",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 16246973,
+        "width" : 186,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "3547.115384615385",
+          "largest" : "92225",
+          "null" : 0,
+          "top" : [ {
+            "item" : "145",
+            "count" : 20
+          }, {
+            "item" : "1747",
+            "count" : 19
+          }, {
+            "item" : "8251",
+            "count" : 18
+          }, {
+            "item" : "760",
+            "count" : 17
+          }, {
+            "item" : "2",
+            "count" : 16
+          }, {
+            "item" : "2756",
+            "count" : 15
+          }, {
+            "item" : "453",
+            "count" : 14
+          }, {
+            "item" : "175",
+            "count" : 13
+          }, {
+            "item" : "2195",
+            "count" : 12
+          }, {
+            "item" : "260",
+            "count" : 11
+          }, {
+            "item" : "92225",
+            "count" : 10
+          } ],
+          "smallest" : "2",
+          "sum" : "184450"
+        },
+        "format" : { }
+      }, {
+        "id" : 147175517,
+        "name" : "Enrolled Through June 30, 2013",
+        "dataTypeName" : "number",
+        "fieldName" : "enrolled_through_june_30_2013",
+        "position" : 11,
+        "renderTypeName" : "number",
+        "tableColumnId" : 13233917,
+        "width" : 193,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "3586.038461538462",
+          "largest" : "93237",
+          "null" : 0,
+          "top" : [ {
+            "item" : "145",
+            "count" : 20
+          }, {
+            "item" : "1794",
+            "count" : 19
+          }, {
+            "item" : "8507",
+            "count" : 18
+          }, {
+            "item" : "729",
+            "count" : 17
+          }, {
+            "item" : "1",
+            "count" : 16
+          }, {
+            "item" : "2824",
+            "count" : 15
+          }, {
+            "item" : "448",
+            "count" : 14
+          }, {
+            "item" : "176",
+            "count" : 13
+          }, {
+            "item" : "2252",
+            "count" : 12
+          }, {
+            "item" : "265",
+            "count" : 11
+          }, {
+            "item" : "93237",
+            "count" : 10
+          } ],
+          "smallest" : "1",
+          "sum" : "186474"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175518,
+        "name" : "Enrolled Through May 31, 2013",
+        "dataTypeName" : "number",
+        "fieldName" : "enrolled_through_may_31_2013",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 12337283,
+        "width" : 185,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "4037.153846153846",
+          "largest" : "104966",
+          "null" : 0,
+          "top" : [ {
+            "item" : "195",
+            "count" : 20
+          }, {
+            "item" : "1836",
+            "count" : 19
+          }, {
+            "item" : "8829",
+            "count" : 18
+          }, {
+            "item" : "981",
+            "count" : 17
+          }, {
+            "item" : "0",
+            "count" : 16
+          }, {
+            "item" : "2915",
+            "count" : 15
+          }, {
+            "item" : "1044",
+            "count" : 14
+          }, {
+            "item" : "183",
+            "count" : 13
+          }, {
+            "item" : "2297",
+            "count" : 12
+          }, {
+            "item" : "272",
+            "count" : 11
+          }, {
+            "item" : "104966",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "209932"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175519,
+        "name" : "Enrolled Through April 30, 2013",
+        "dataTypeName" : "number",
+        "fieldName" : "enrolled_through_april_30_2013",
+        "position" : 13,
+        "renderTypeName" : "number",
+        "tableColumnId" : 11544612,
+        "width" : 189,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "4176.5",
+          "largest" : "108589",
+          "null" : 0,
+          "top" : [ {
+            "item" : "162",
+            "count" : 20
+          }, {
+            "item" : "1862",
+            "count" : 19
+          }, {
+            "item" : "9125",
+            "count" : 18
+          }, {
+            "item" : "1071",
+            "count" : 17
+          }, {
+            "item" : "1",
+            "count" : 16
+          }, {
+            "item" : "3014",
+            "count" : 15
+          }, {
+            "item" : "1074",
+            "count" : 14
+          }, {
+            "item" : "193",
+            "count" : 13
+          }, {
+            "item" : "2346",
+            "count" : 12
+          }, {
+            "item" : "284",
+            "count" : 11
+          }, {
+            "item" : "108589",
+            "count" : 10
+          } ],
+          "smallest" : "1",
+          "sum" : "217178"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175520,
+        "name" : "Enrolled Through Mar. 31, 2013",
+        "dataTypeName" : "number",
+        "fieldName" : "enrolled_through_mar_31_2013",
+        "position" : 14,
+        "renderTypeName" : "number",
+        "tableColumnId" : 10511727,
+        "width" : 186,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "4242.230769230769",
+          "largest" : "110298",
+          "null" : 0,
+          "top" : [ {
+            "item" : "195",
+            "count" : 20
+          }, {
+            "item" : "1862",
+            "count" : 19
+          }, {
+            "item" : "9125",
+            "count" : 18
+          }, {
+            "item" : "1154",
+            "count" : 17
+          }, {
+            "item" : "1",
+            "count" : 16
+          }, {
+            "item" : "3015",
+            "count" : 15
+          }, {
+            "item" : "1106",
+            "count" : 14
+          }, {
+            "item" : "193",
+            "count" : 13
+          }, {
+            "item" : "2393",
+            "count" : 12
+          }, {
+            "item" : "284",
+            "count" : 11
+          }, {
+            "item" : "110298",
+            "count" : 10
+          } ],
+          "smallest" : "1",
+          "sum" : "220596"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175521,
+        "name" : "Enrolled Through Feb. 28, 2013",
+        "dataTypeName" : "number",
+        "fieldName" : "enrolled_through_feb_28_2013",
+        "position" : 15,
+        "renderTypeName" : "number",
+        "tableColumnId" : 9663588,
+        "width" : 204,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "4421.5",
+          "largest" : "114959",
+          "null" : 0,
+          "top" : [ {
+            "item" : "201",
+            "count" : 20
+          }, {
+            "item" : "2053",
+            "count" : 19
+          }, {
+            "item" : "10336",
+            "count" : 18
+          }, {
+            "item" : "1217",
+            "count" : 17
+          }, {
+            "item" : "1",
+            "count" : 16
+          }, {
+            "item" : "3252",
+            "count" : 15
+          }, {
+            "item" : "1106",
+            "count" : 14
+          }, {
+            "item" : "209",
+            "count" : 13
+          }, {
+            "item" : "2326",
+            "count" : 12
+          }, {
+            "item" : "311",
+            "count" : 11
+          }, {
+            "item" : "114959",
+            "count" : 10
+          } ],
+          "smallest" : "1",
+          "sum" : "229918"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175522,
+        "name" : "Enrolled Through Jan. 31, 2013",
+        "dataTypeName" : "number",
+        "fieldName" : "enrolled_through_jan_31_2013",
+        "position" : 16,
+        "renderTypeName" : "number",
+        "tableColumnId" : 8643831,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "4264.923076923077",
+          "largest" : "110888",
+          "null" : 0,
+          "top" : [ {
+            "item" : "210",
+            "count" : 20
+          }, {
+            "item" : "1988",
+            "count" : 19
+          }, {
+            "item" : "10055",
+            "count" : 18
+          }, {
+            "item" : "1213",
+            "count" : 17
+          }, {
+            "item" : "1",
+            "count" : 16
+          }, {
+            "item" : "3114",
+            "count" : 15
+          }, {
+            "item" : "1034",
+            "count" : 14
+          }, {
+            "item" : "208",
+            "count" : 13
+          }, {
+            "item" : "2186",
+            "count" : 12
+          }, {
+            "item" : "306",
+            "count" : 11
+          }, {
+            "item" : "110888",
+            "count" : 10
+          } ],
+          "smallest" : "1",
+          "sum" : "221776"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175523,
+        "name" : "Enrolled Through Dec. 31, 2012",
+        "dataTypeName" : "number",
+        "fieldName" : "enrolled_through_december_31_2012",
+        "position" : 17,
+        "renderTypeName" : "number",
+        "tableColumnId" : 7882405,
+        "width" : 188,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "4120.730769230769",
+          "largest" : "107139",
+          "null" : 0,
+          "top" : [ {
+            "item" : "213",
+            "count" : 20
+          }, {
+            "item" : "1915",
+            "count" : 19
+          }, {
+            "item" : "9592",
+            "count" : 18
+          }, {
+            "item" : "1160",
+            "count" : 17
+          }, {
+            "item" : "1",
+            "count" : 16
+          }, {
+            "item" : "2893",
+            "count" : 15
+          }, {
+            "item" : "966",
+            "count" : 14
+          }, {
+            "item" : "195",
+            "count" : 13
+          }, {
+            "item" : "2075",
+            "count" : 12
+          }, {
+            "item" : "298",
+            "count" : 11
+          }, {
+            "item" : "107139",
+            "count" : 10
+          } ],
+          "smallest" : "1",
+          "sum" : "214278"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175524,
+        "name" : "Enrolled Through Nov. 30, 2012",
+        "dataTypeName" : "number",
+        "fieldName" : "enrolled_through_november_30_2012_2",
+        "position" : 18,
+        "renderTypeName" : "number",
+        "tableColumnId" : 7020809,
+        "width" : 193,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "3967.692307692308",
+          "largest" : "103160",
+          "null" : 0,
+          "top" : [ {
+            "item" : "191",
+            "count" : 20
+          }, {
+            "item" : "1833",
+            "count" : 19
+          }, {
+            "item" : "9032",
+            "count" : 18
+          }, {
+            "item" : "1248",
+            "count" : 17
+          }, {
+            "item" : "1",
+            "count" : 16
+          }, {
+            "item" : "2521",
+            "count" : 15
+          }, {
+            "item" : "1013",
+            "count" : 14
+          }, {
+            "item" : "185",
+            "count" : 13
+          }, {
+            "item" : "2013",
+            "count" : 12
+          }, {
+            "item" : "284",
+            "count" : 11
+          }, {
+            "item" : "103160",
+            "count" : 10
+          } ],
+          "smallest" : "1",
+          "sum" : "206320"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175525,
+        "name" : "Enrolled Through October 31, 2012",
+        "dataTypeName" : "number",
+        "fieldName" : "number_of_people_enrolled_through_october_31_2012",
+        "position" : 19,
+        "renderTypeName" : "number",
+        "tableColumnId" : 6073862,
+        "width" : 198,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "3825.576923076923",
+          "largest" : "99465",
+          "null" : 0,
+          "top" : [ {
+            "item" : "191",
+            "count" : 20
+          }, {
+            "item" : "1768",
+            "count" : 19
+          }, {
+            "item" : "8610",
+            "count" : 18
+          }, {
+            "item" : "1293",
+            "count" : 17
+          }, {
+            "item" : "1",
+            "count" : 16
+          }, {
+            "item" : "2445",
+            "count" : 15
+          }, {
+            "item" : "960",
+            "count" : 14
+          }, {
+            "item" : "173",
+            "count" : 13
+          }, {
+            "item" : "1955",
+            "count" : 12
+          }, {
+            "item" : "280",
+            "count" : 11
+          }, {
+            "item" : "99465",
+            "count" : 10
+          } ],
+          "smallest" : "1",
+          "sum" : "198930"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175526,
+        "name" : "Enrolled Through September 30, 2012",
+        "dataTypeName" : "number",
+        "fieldName" : "number_of_people_enrolled_through_september_30_2012",
+        "position" : 20,
+        "renderTypeName" : "number",
+        "tableColumnId" : 6073863,
+        "width" : 218,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "3633",
+          "largest" : "94458",
+          "null" : 0,
+          "top" : [ {
+            "item" : "185",
+            "count" : 20
+          }, {
+            "item" : "1677",
+            "count" : 19
+          }, {
+            "item" : "8139",
+            "count" : 18
+          }, {
+            "item" : "1231",
+            "count" : 17
+          }, {
+            "item" : "1",
+            "count" : 16
+          }, {
+            "item" : "2294",
+            "count" : 15
+          }, {
+            "item" : "947",
+            "count" : 14
+          }, {
+            "item" : "159",
+            "count" : 13
+          }, {
+            "item" : "1872",
+            "count" : 12
+          }, {
+            "item" : "257",
+            "count" : 11
+          }, {
+            "item" : "94458",
+            "count" : 10
+          } ],
+          "smallest" : "1",
+          "sum" : "188916"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175527,
+        "name" : "Enrolled Through August 31, 2012",
+        "dataTypeName" : "number",
+        "fieldName" : "number_of_people_enrolled_through_august_31_2012",
+        "position" : 21,
+        "renderTypeName" : "number",
+        "tableColumnId" : 6073864,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "3474.884615384615",
+          "largest" : "90347",
+          "null" : 0,
+          "top" : [ {
+            "item" : "188",
+            "count" : 20
+          }, {
+            "item" : "1583",
+            "count" : 19
+          }, {
+            "item" : "7675",
+            "count" : 18
+          }, {
+            "item" : "1158",
+            "count" : 17
+          }, {
+            "item" : "1",
+            "count" : 16
+          }, {
+            "item" : "2158",
+            "count" : 15
+          }, {
+            "item" : "926",
+            "count" : 14
+          }, {
+            "item" : "146",
+            "count" : 13
+          }, {
+            "item" : "1806",
+            "count" : 12
+          }, {
+            "item" : "250",
+            "count" : 11
+          }, {
+            "item" : "90347",
+            "count" : 10
+          } ],
+          "smallest" : "1",
+          "sum" : "180694"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175528,
+        "name" : "Enrolled Through July 31, 2012",
+        "dataTypeName" : "number",
+        "fieldName" : "number_of_people_enrolled_through_july_31_2012",
+        "position" : 22,
+        "renderTypeName" : "number",
+        "tableColumnId" : 6073865,
+        "width" : 175,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "3310.461538461538",
+          "largest" : "86072",
+          "null" : 0,
+          "top" : [ {
+            "item" : "172",
+            "count" : 20
+          }, {
+            "item" : "1513",
+            "count" : 19
+          }, {
+            "item" : "7331",
+            "count" : 18
+          }, {
+            "item" : "1107",
+            "count" : 17
+          }, {
+            "item" : "1",
+            "count" : 16
+          }, {
+            "item" : "2020",
+            "count" : 15
+          }, {
+            "item" : "872",
+            "count" : 14
+          }, {
+            "item" : "132",
+            "count" : 13
+          }, {
+            "item" : "1715",
+            "count" : 12
+          }, {
+            "item" : "250",
+            "count" : 11
+          }, {
+            "item" : "86072",
+            "count" : 10
+          } ],
+          "smallest" : "1",
+          "sum" : "172144"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175529,
+        "name" : "Enrolled Through June 30, 2012",
+        "dataTypeName" : "number",
+        "fieldName" : "number_of_people_enrolled_through_june_30_2012",
+        "position" : 23,
+        "renderTypeName" : "number",
+        "tableColumnId" : 6073866,
+        "width" : 179,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "3153.846153846154",
+          "largest" : "82000",
+          "null" : 0,
+          "top" : [ {
+            "item" : "172",
+            "count" : 20
+          }, {
+            "item" : "1463",
+            "count" : 19
+          }, {
+            "item" : "6967",
+            "count" : 18
+          }, {
+            "item" : "1074",
+            "count" : 17
+          }, {
+            "item" : "1",
+            "count" : 16
+          }, {
+            "item" : "1882",
+            "count" : 15
+          }, {
+            "item" : "867",
+            "count" : 14
+          }, {
+            "item" : "131",
+            "count" : 13
+          }, {
+            "item" : "1656",
+            "count" : 12
+          }, {
+            "item" : "242",
+            "count" : 11
+          }, {
+            "item" : "82000",
+            "count" : 10
+          } ],
+          "smallest" : "1",
+          "sum" : "164000"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175530,
+        "name" : "Enrolled Through May 31, 2012",
+        "dataTypeName" : "number",
+        "fieldName" : "number_of_people_enrolled_through_may_31_2012",
+        "position" : 24,
+        "renderTypeName" : "number",
+        "tableColumnId" : 6073867,
+        "width" : 177,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "2995.269230769231",
+          "largest" : "77877",
+          "null" : 0,
+          "top" : [ {
+            "item" : "190",
+            "count" : 20
+          }, {
+            "item" : "1385",
+            "count" : 19
+          }, {
+            "item" : "6623",
+            "count" : 18
+          }, {
+            "item" : "1005",
+            "count" : 17
+          }, {
+            "item" : "1",
+            "count" : 16
+          }, {
+            "item" : "1796",
+            "count" : 15
+          }, {
+            "item" : "842",
+            "count" : 14
+          }, {
+            "item" : "132",
+            "count" : 13
+          }, {
+            "item" : "1546",
+            "count" : 12
+          }, {
+            "item" : "230",
+            "count" : 11
+          }, {
+            "item" : "77877",
+            "count" : 10
+          } ],
+          "smallest" : "1",
+          "sum" : "155754"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175531,
+        "name" : "Enrolled Through April 30, 2012",
+        "dataTypeName" : "number",
+        "fieldName" : "number_of_people_enrolled_through_april_30_2012",
+        "position" : 25,
+        "renderTypeName" : "number",
+        "tableColumnId" : 6073868,
+        "width" : 181,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "2820.5",
+          "largest" : "73333",
+          "null" : 0,
+          "top" : [ {
+            "item" : "185",
+            "count" : 20
+          }, {
+            "item" : "1309",
+            "count" : 19
+          }, {
+            "item" : "6264",
+            "count" : 18
+          }, {
+            "item" : "918",
+            "count" : 17
+          }, {
+            "item" : "1",
+            "count" : 16
+          }, {
+            "item" : "1707",
+            "count" : 15
+          }, {
+            "item" : "805",
+            "count" : 14
+          }, {
+            "item" : "127",
+            "count" : 13
+          }, {
+            "item" : "1463",
+            "count" : 12
+          }, {
+            "item" : "216",
+            "count" : 11
+          }, {
+            "item" : "73333",
+            "count" : 10
+          } ],
+          "smallest" : "1",
+          "sum" : "146666"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175532,
+        "name" : "Enrolled Through March 31, 2012",
+        "dataTypeName" : "number",
+        "fieldName" : "number_of_people_enrolled_through_march_31_2012",
+        "position" : 26,
+        "renderTypeName" : "number",
+        "tableColumnId" : 6073869,
+        "width" : 187,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "2595.461538461538",
+          "largest" : "67482",
+          "null" : 0,
+          "top" : [ {
+            "item" : "176",
+            "count" : 20
+          }, {
+            "item" : "1191",
+            "count" : 19
+          }, {
+            "item" : "5684",
+            "count" : 18
+          }, {
+            "item" : "839",
+            "count" : 17
+          }, {
+            "item" : "2",
+            "count" : 16
+          }, {
+            "item" : "1498",
+            "count" : 15
+          }, {
+            "item" : "782",
+            "count" : 14
+          }, {
+            "item" : "113",
+            "count" : 13
+          }, {
+            "item" : "1373",
+            "count" : 12
+          }, {
+            "item" : "185",
+            "count" : 11
+          }, {
+            "item" : "67482",
+            "count" : 10
+          } ],
+          "smallest" : "2",
+          "sum" : "134964"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175533,
+        "name" : "Enrolled Through February 29, 2012",
+        "dataTypeName" : "number",
+        "fieldName" : "number_of_people_enrolled_through_february_29_2012",
+        "position" : 27,
+        "renderTypeName" : "number",
+        "tableColumnId" : 6073870,
+        "width" : 209,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "2369.961538461538",
+          "largest" : "61619",
+          "null" : 0,
+          "top" : [ {
+            "item" : "170",
+            "count" : 20
+          }, {
+            "item" : "1102",
+            "count" : 19
+          }, {
+            "item" : "5092",
+            "count" : 18
+          }, {
+            "item" : "860",
+            "count" : 17
+          }, {
+            "item" : "2",
+            "count" : 16
+          }, {
+            "item" : "1343",
+            "count" : 15
+          }, {
+            "item" : "765",
+            "count" : 14
+          }, {
+            "item" : "108",
+            "count" : 13
+          }, {
+            "item" : "1256",
+            "count" : 12
+          }, {
+            "item" : "175",
+            "count" : 11
+          }, {
+            "item" : "61619",
+            "count" : 10
+          } ],
+          "smallest" : "2",
+          "sum" : "123238"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175534,
+        "name" : "Enrolled Through December 31, 2011",
+        "dataTypeName" : "number",
+        "fieldName" : "number_of_people_enrolled_through_december_31_2011",
+        "position" : 28,
+        "renderTypeName" : "number",
+        "tableColumnId" : 6073871,
+        "width" : 211,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "2163.730769230769",
+          "largest" : "56257",
+          "null" : 0,
+          "top" : [ {
+            "item" : "173",
+            "count" : 20
+          }, {
+            "item" : "1012",
+            "count" : 19
+          }, {
+            "item" : "4630",
+            "count" : 18
+          }, {
+            "item" : "761",
+            "count" : 17
+          }, {
+            "item" : "2",
+            "count" : 16
+          }, {
+            "item" : "1191",
+            "count" : 15
+          }, {
+            "item" : "725",
+            "count" : 14
+          }, {
+            "item" : "92",
+            "count" : 13
+          }, {
+            "item" : "1159",
+            "count" : 12
+          }, {
+            "item" : "164",
+            "count" : 11
+          }, {
+            "item" : "56257",
+            "count" : 10
+          } ],
+          "smallest" : "2",
+          "sum" : "112514"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175535,
+        "name" : "Enrolled Through November 30, 2011",
+        "dataTypeName" : "number",
+        "fieldName" : "number_of_people_enrolled_through_november_30_2011",
+        "position" : 29,
+        "renderTypeName" : "number",
+        "tableColumnId" : 6073872,
+        "width" : 206,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "1879.961538461538",
+          "largest" : "48879",
+          "null" : 0,
+          "top" : [ {
+            "item" : "163",
+            "count" : 20
+          }, {
+            "item" : "153",
+            "count" : 19
+          }, {
+            "item" : "4029",
+            "count" : 18
+          }, {
+            "item" : "696",
+            "count" : 17
+          }, {
+            "item" : "0",
+            "count" : 16
+          }, {
+            "item" : "982",
+            "count" : 15
+          }, {
+            "item" : "708",
+            "count" : 14
+          }, {
+            "item" : "76",
+            "count" : 13
+          }, {
+            "item" : "1000",
+            "count" : 12
+          }, {
+            "item" : "137",
+            "count" : 11
+          }, {
+            "item" : "48879",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "97758"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175536,
+        "name" : "Enrolled Through October 31, 2011",
+        "dataTypeName" : "number",
+        "fieldName" : "number_of_people_enrolled_through_october_31_2011",
+        "position" : 30,
+        "renderTypeName" : "number",
+        "tableColumnId" : 6073873,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "1725.076923076923",
+          "largest" : "44852",
+          "null" : 0,
+          "top" : [ {
+            "item" : "148",
+            "count" : 20
+          }, {
+            "item" : "798",
+            "count" : 19
+          }, {
+            "item" : "3644",
+            "count" : 18
+          }, {
+            "item" : "661",
+            "count" : 17
+          }, {
+            "item" : "0",
+            "count" : 16
+          }, {
+            "item" : "876",
+            "count" : 15
+          }, {
+            "item" : "659",
+            "count" : 14
+          }, {
+            "item" : "65",
+            "count" : 13
+          }, {
+            "item" : "940",
+            "count" : 12
+          }, {
+            "item" : "125",
+            "count" : 11
+          }, {
+            "item" : "44852",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "89704"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175537,
+        "name" : "Enrolled Through September 30, 2011",
+        "dataTypeName" : "number",
+        "fieldName" : "number_of_people_enrolled_through_september_30_2011",
+        "position" : 31,
+        "renderTypeName" : "number",
+        "tableColumnId" : 6073874,
+        "width" : 211,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "1593.346153846154",
+          "largest" : "41427",
+          "null" : 0,
+          "top" : [ {
+            "item" : "151",
+            "count" : 20
+          }, {
+            "item" : "721",
+            "count" : 19
+          }, {
+            "item" : "3297",
+            "count" : 18
+          }, {
+            "item" : "624",
+            "count" : 17
+          }, {
+            "item" : "0",
+            "count" : 16
+          }, {
+            "item" : "799",
+            "count" : 15
+          }, {
+            "item" : "625",
+            "count" : 14
+          }, {
+            "item" : "56",
+            "count" : 13
+          }, {
+            "item" : "875",
+            "count" : 12
+          }, {
+            "item" : "121",
+            "count" : 11
+          }, {
+            "item" : "41427",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "82854"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175538,
+        "name" : "Enrolled Through August 31, 2011",
+        "dataTypeName" : "number",
+        "fieldName" : "number_of_people_enrolled_through_august_31_2011",
+        "position" : 32,
+        "renderTypeName" : "number",
+        "tableColumnId" : 6073875,
+        "width" : 189,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "1447.076923076923",
+          "largest" : "37624",
+          "null" : 0,
+          "top" : [ {
+            "item" : "471",
+            "count" : 20
+          }, {
+            "item" : "137",
+            "count" : 19
+          }, {
+            "item" : "2967",
+            "count" : 18
+          }, {
+            "item" : "568",
+            "count" : 17
+          }, {
+            "item" : "0",
+            "count" : 16
+          }, {
+            "item" : "693",
+            "count" : 15
+          }, {
+            "item" : "586",
+            "count" : 14
+          }, {
+            "item" : "48",
+            "count" : 13
+          }, {
+            "item" : "822",
+            "count" : 12
+          }, {
+            "item" : "113",
+            "count" : 11
+          }, {
+            "item" : "37624",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "75248"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175539,
+        "name" : "Enrolled Through July 31, 2011",
+        "dataTypeName" : "number",
+        "fieldName" : "number_of_people_enrolled_through_july_31_2011",
+        "position" : 33,
+        "renderTypeName" : "number",
+        "tableColumnId" : 6073876,
+        "width" : 173,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "1306.076923076923",
+          "largest" : "33958",
+          "null" : 0,
+          "top" : [ {
+            "item" : "119",
+            "count" : 20
+          }, {
+            "item" : "578",
+            "count" : 19
+          }, {
+            "item" : "2650",
+            "count" : 18
+          }, {
+            "item" : "512",
+            "count" : 17
+          }, {
+            "item" : "0",
+            "count" : 16
+          }, {
+            "item" : "590",
+            "count" : 15
+          }, {
+            "item" : "531",
+            "count" : 14
+          }, {
+            "item" : "41",
+            "count" : 13
+          }, {
+            "item" : "772",
+            "count" : 12
+          }, {
+            "item" : "103",
+            "count" : 11
+          }, {
+            "item" : "33958",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "67916"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175540,
+        "name" : "Enrolled Through June 30, 2011",
+        "dataTypeName" : "number",
+        "fieldName" : "number_of_people_enrolled_through_june_30_2011",
+        "position" : 34,
+        "renderTypeName" : "number",
+        "tableColumnId" : 6073877,
+        "width" : 176,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "1169.038461538462",
+          "largest" : "30395",
+          "null" : 0,
+          "top" : [ {
+            "item" : "86",
+            "count" : 20
+          }, {
+            "item" : "483",
+            "count" : 19
+          }, {
+            "item" : "2276",
+            "count" : 18
+          }, {
+            "item" : "463",
+            "count" : 17
+          }, {
+            "item" : "0",
+            "count" : 16
+          }, {
+            "item" : "476",
+            "count" : 15
+          }, {
+            "item" : "496",
+            "count" : 14
+          }, {
+            "item" : "34",
+            "count" : 13
+          }, {
+            "item" : "738",
+            "count" : 12
+          }, {
+            "item" : "93",
+            "count" : 11
+          }, {
+            "item" : "30395",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "60790"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175541,
+        "name" : "Enrolled Through May 31, 2011",
+        "dataTypeName" : "number",
+        "fieldName" : "number_of_people_enrolled_through_may_31_2011",
+        "position" : 35,
+        "renderTypeName" : "number",
+        "tableColumnId" : 6073878,
+        "width" : 175,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "1057.269230769231",
+          "largest" : "27489",
+          "null" : 0,
+          "top" : [ {
+            "item" : "79",
+            "count" : 20
+          }, {
+            "item" : "105",
+            "count" : 19
+          }, {
+            "item" : "2020",
+            "count" : 18
+          }, {
+            "item" : "395",
+            "count" : 17
+          }, {
+            "item" : "0",
+            "count" : 16
+          }, {
+            "item" : "424",
+            "count" : 15
+          }, {
+            "item" : "446",
+            "count" : 14
+          }, {
+            "item" : "30",
+            "count" : 13
+          }, {
+            "item" : "676",
+            "count" : 12
+          }, {
+            "item" : "87",
+            "count" : 11
+          }, {
+            "item" : "27489",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "54978"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175542,
+        "name" : "Enrolled Through April 30, 2011",
+        "dataTypeName" : "number",
+        "fieldName" : "number_of_people_enrolled_through_april_30_2011",
+        "position" : 36,
+        "renderTypeName" : "number",
+        "tableColumnId" : 6073879,
+        "width" : 179,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "950.4615384615385",
+          "largest" : "24712",
+          "null" : 0,
+          "top" : [ {
+            "item" : "104",
+            "count" : 20
+          }, {
+            "item" : "380",
+            "count" : 19
+          }, {
+            "item" : "1798",
+            "count" : 18
+          }, {
+            "item" : "353",
+            "count" : 17
+          }, {
+            "item" : "0",
+            "count" : 16
+          }, {
+            "item" : "370",
+            "count" : 15
+          }, {
+            "item" : "410",
+            "count" : 14
+          }, {
+            "item" : "27",
+            "count" : 13
+          }, {
+            "item" : "603",
+            "count" : 12
+          }, {
+            "item" : "80",
+            "count" : 11
+          }, {
+            "item" : "24712",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "49424"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175543,
+        "name" : "Enrolled Through March 31, 2011",
+        "dataTypeName" : "number",
+        "fieldName" : "number_of_people_enrolled_through_march_31_2011",
+        "position" : 37,
+        "renderTypeName" : "number",
+        "tableColumnId" : 6073880,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "825.1538461538462",
+          "largest" : "21454",
+          "null" : 0,
+          "top" : [ {
+            "item" : "94",
+            "count" : 20
+          }, {
+            "item" : "314",
+            "count" : 19
+          }, {
+            "item" : "1528",
+            "count" : 18
+          }, {
+            "item" : "286",
+            "count" : 17
+          }, {
+            "item" : "0",
+            "count" : 16
+          }, {
+            "item" : "320",
+            "count" : 15
+          }, {
+            "item" : "341",
+            "count" : 14
+          }, {
+            "item" : "24",
+            "count" : 13
+          }, {
+            "item" : "547",
+            "count" : 12
+          }, {
+            "item" : "73",
+            "count" : 11
+          }, {
+            "item" : "21454",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "42908"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175544,
+        "name" : "Enrolled Through February 1, 2011",
+        "dataTypeName" : "number",
+        "fieldName" : "number_of_people_enrolled_through_february_1_2011",
+        "position" : 38,
+        "renderTypeName" : "number",
+        "tableColumnId" : 6073881,
+        "width" : 194,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "704.3461538461538",
+          "largest" : "18313",
+          "null" : 0,
+          "top" : [ {
+            "item" : "77",
+            "count" : 20
+          }, {
+            "item" : "198",
+            "count" : 19
+          }, {
+            "item" : "1298",
+            "count" : 18
+          }, {
+            "item" : "223",
+            "count" : 17
+          }, {
+            "item" : "0",
+            "count" : 16
+          }, {
+            "item" : "268",
+            "count" : 15
+          }, {
+            "item" : "304",
+            "count" : 14
+          }, {
+            "item" : "18",
+            "count" : 13
+          }, {
+            "item" : "456",
+            "count" : 12
+          }, {
+            "item" : "61",
+            "count" : 11
+          }, {
+            "item" : "18313",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "36626"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 147175545,
+        "name" : "Enrolled Through November 1, 2011",
+        "dataTypeName" : "number",
+        "fieldName" : "number_of_people_enrolled_through_november_1_2011",
+        "position" : 39,
+        "renderTypeName" : "number",
+        "tableColumnId" : 6073882,
+        "width" : 204,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "478.3461538461538",
+          "largest" : "12437",
+          "null" : 0,
+          "top" : [ {
+            "item" : "62",
+            "count" : 20
+          }, {
+            "item" : "171",
+            "count" : 19
+          }, {
+            "item" : "1007",
+            "count" : 18
+          }, {
+            "item" : "117",
+            "count" : 17
+          }, {
+            "item" : "0",
+            "count" : 16
+          }, {
+            "item" : "204",
+            "count" : 15
+          }, {
+            "item" : "139",
+            "count" : 14
+          }, {
+            "item" : "15",
+            "count" : 13
+          }, {
+            "item" : "307",
+            "count" : 12
+          }, {
+            "item" : "49",
+            "count" : 11
+          }, {
+            "item" : "12437",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "24874"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "sidebar" : {
+          "width" : 363
+        }
+      },
+      "owner" : {
+        "id" : "trzw-9xqj",
+        "displayName" : "HealthCare.gov",
+        "profileImageUrlLarge" : "/api/users/trzw-9xqj/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/trzw-9xqj/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/trzw-9xqj/profile_images/TINY",
+        "screenName" : "HealthCare.gov"
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "trzw-9xqj",
+        "displayName" : "HealthCare.gov",
+        "profileImageUrlLarge" : "/api/users/trzw-9xqj/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/trzw-9xqj/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/trzw-9xqj/profile_images/TINY",
+        "screenName" : "HealthCare.gov"
+      },
+      "tags" : [ "pcip", "health care", "pre-existing conditions", "affordable care act", "coverage", "health insurance" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "BCF60CC2-33AF-4C66-9B46-4C2F7361182E", 1, 1399452742, "387776", 1399452742, "387776", "{\n}", "Alabama", "Federal", "115", "123", "594", "639", "672", "711", "736", "766", "795", "820", "821", "1006", "972", "911", "838", "794", "735", "679", "635", "590", "559", "524", "466", "429", "389", "340", "296", "275", "230", "182", "138", "118", "103", "91", "77", "61" ]
+, [ 2, "136281A5-2328-4A95-97B8-6965DF1B215E", 2, 1399452742, "387776", 1399452742, "387776", "{\n}", "Alaska", "State", "5", "25", "32", "34", "34", "36", "36", "38", "43", "46", "51", "52", "47", "46", "45", "47", "42", "45", "43", "43", "45", "47", "45", "42", "42", "44", "45", "48", "45", "43", "47", "38", "35", "34", "32", "20" ]
+, [ 3, "957133BE-B19C-493E-9E0C-768E4A56818D", 3, 1399452742, "387776", 1399452742, "387776", "{\n}", "Arizona", "Federal", "1373", "1392", "3857", "4021", "4154", "4293", "4389", "4541", "4653", "4779", "4779", "5254", "5082", "4861", "4628", "4402", "4149", "3898", "3655", "3480", "3282", "3065", "2748", "2448", "2139", "1783", "1533", "1391", "1178", "967", "759", "639", "573", "457", "374", "270" ]
+, [ 4, "99F347A8-FD11-4510-A36E-BA17845A58CB", 4, 1399452742, "387776", 1399452742, "387776", "{\n}", "Arkansas", "Transitioned from State to Federally-administered program 7/1/2013", "126", "129", "648", "688", "716", "750", "767", "736", "871", "878", "895", "921", "883", "868", "855", "839", "798", "767", "725", "695", "648", "624", "574", "554", "484", "404", "367", "333", "310", "291", "273", "254", "278", "226", "198", "147" ]
+, [ 5, "BA59EC2A-15BA-4A1B-AFB8-FB5822EA7431", 5, 1399452742, "387776", 1399452742, "387776", "{\n}", "California", "Transitioned from State to Federally-administered program 7/1/2013", "2209", "2265", "11300", "12122", "12780", "13428", "13950", "13874", "16060", "16460", "16762", "16225", "15587", "15223", "15101", "14107", "13584", "12821", "11977", "11118", "10402", "9608", "8662", "7634", "6813", "5599", "4907", "4294", "3745", "3368", "2979", "2659", "2256", "1858", "1543", "706" ]
+, [ 6, "D44A32F9-7C9A-403A-BD24-568372EBCD9E", 6, 1399452742, "387776", 1399452742, "387776", "{\n}", "Colorado", "Transitioned from State to Federally-administered program 7/1/2013", "110", "113", "776", "821", "876", "925", "969", "950", "1227", "1288", "1342", "1340", "1315", "1321", "1331", "1323", "1330", "1335", "1344", "1330", "1333", "1278", "1227", "1171", "1128", "1054", "1020", "1004", "964", "914", "863", "807", "776", "699", "617", "434" ]
+, [ 7, "00137A2E-DE13-4CFA-804B-1A8836B19969", 7, 1399452742, "387776", 1399452742, "387776", "{\n}", "Connecticut", "State", "27", "63", "406", "512", "555", "582", "609", "632", "662", "671", "676", "651", "623", "601", "577", "565", "567", "508", "484", "470", "440", "389", "322", "265", "239", "163", "128", "103", "73", "68", "62", "57", "56", "42", "51", "22" ]
+, [ 8, "EF574FBC-87FD-45FA-B76E-3F0E67B36D0F", 8, 1399452742, "387776", 1399452742, "387776", "{\n}", "Delaware", "Federal", "49", "49", "239", "249", "265", "272", "276", "284", "297", "306", "306", "335", "330", "316", "302", "290", "268", "257", "251", "246", "231", "224", "217", "200", "183", "153", "136", "124", "107", "95", "83", "73", "67", "54", "41", "34" ]
+, [ 9, "7A393A46-57F4-4962-97CD-E2F6B79A19E3", 9, 1399452742, "387776", 1399452742, "387776", "{\n}", "District of Columbia", "Federal", "23", "25", "65", "69", "73", "79", "82", "88", "91", "89", "89", "101", "97", "84", "81", "77", "69", "68", "64", "63", "57", "53", "49", "48", "44", "38", "37", "35", "37", "36", "33", "30", "27", "21", "15", "10" ]
+, [ 10, "3F57E632-021A-4E6D-82A2-34A46D01A8B5", 10, 1399452742, "387776", 1399452742, "387776", "{\n}", "Florida", "Federal", "1722", "1749", "8455", "8887", "9233", "9551", "9797", "10050", "10402", "10656", "10659", "11873", "11574", "11145", "10635", "10109", "9299", "8617", "8145", "7661", "7114", "6633", "5918", "5232", "4584", "3736", "3285", "2864", "2381", "1906", "1454", "1201", "1067", "925", "770", "613" ]
+, [ 11, "61A8C832-BD0A-4079-8F53-B9A4D1CAA408", 11, 1399452742, "387776", 1399452742, "387776", "{\n}", "Georgia", "Federal", "671", "684", "2705", "2858", "2969", "3076", "3161", "3250", "3364", "3488", "3488", "3958", "3873", "3726", "3571", "3486", "3260", "3081", "2927", "2774", "2386", "2259", "2066", "1883", "1707", "1476", "1368", "1279", "1177", "1060", "914", "822", "725", "608", "515", "399" ]
+, [ 12, "8A33BF2B-D7AE-4988-9504-884F4DE42EB4", 12, 1399452742, "387776", 1399452742, "387776", "{\n}", "Hawaii", "Federal", "31", "31", "130", "138", "144", "148", "148", "150", "158", "162", "162", "180", "174", "168", "151", "146", "135", "130", "124", "125", "122", "117", "107", "101", "89", "78", "66", "64", "63", "57", "51", "45", "39", "27", "24", "23" ]
+, [ 13, "F8F4A4F9-54FF-4F32-AAC2-18F75B6426E3", 13, 1399452742, "387776", 1399452742, "387776", "{\n}", "Idaho", "Federal", "85", "86", "400", "433", "464", "494", "529", "604", "672", "754", "754", "1041", "967", "870", "791", "777", "714", "691", "692", "675", "707", "665", "590", "514", "423", "316", "248", "192", "145", "123", "100", "79", "59", "47", "43", "42" ]
+, [ 14, "EA2400F4-104B-49F0-B6C6-25D517159F79", 14, 1399452742, "387776", 1399452742, "387776", "{\n}", "Illinois", "Transitioned from State to Federally-administered program 7/1/2013", "490", "513", "2366", "2503", "2604", "2752", "2869", "2812", "3544", "3619", "3638", "3491", "3337", "3279", "3231", "3225", "3077", "2973", "2875", "2750", "2717", "2520", "2384", "2231", "2080", "1962", "1920", "1866", "1784", "1699", "1568", "1491", "1357", "1261", "1150", "943" ]
+, [ 15, "69CA1251-164D-4337-B1ED-61B4588C30DE", 15, 1399452742, "387776", 1399452742, "387776", "{\n}", "Indiana", "Federal", "394", "398", "1520", "1603", "1679", "1727", "1769", "1810", "1847", "1891", "1891", "2073", "2018", "1924", "1827", "1748", "1649", "1552", "1467", "1396", "1316", "1231", "1092", "968", "831", "678", "606", "540", "471", "406", "324", "273", "242", "201", "177", "131" ]
+, [ 16, "12689298-5BCA-499C-B742-475E2C49269A", 16, 1399452742, "387776", 1399452742, "387776", "{\n}", "Iowa", "Transitioned from State to Federally-administered program 7/1/2013", "41", "43", "275", "294", "310", "323", "322", "317", "374", "391", "402", "402", "386", "393", "384", "372", "356", "344", "326", "324", "310", "298", "290", "279", "257", "238", "229", "221", "200", "188", "175", "161", "157", "143", "129", "80" ]
+, [ 17, "B2D32D9D-147A-4BB3-95CC-B106EF157756", 17, 1399452742, "387776", 1399452742, "387776", "{\n}", "Kansas", "Transitioned from State to Federally-administered program 7/1/2013", "56", "58", "325", "350", "371", "384", "398", "385", "470", "491", "513", "528", "515", "525", "519", "512", "495", "487", "464", "458", "430", "417", "394", "356", "335", "301", "288", "273", "268", "240", "227", "216", "200", "177", "161", "112" ]
+, [ 18, "0096C9E0-736D-4695-84C8-984AD64F666A", 18, 1399452742, "387776", 1399452742, "387776", "{\n}", "Kentucky", "Federal", "208", "210", "1145", "1204", "1239", "1284", "1315", "1348", "1396", "1419", "1419", "1561", "1506", "1441", "1352", "1271", "1178", "1054", "981", "913", "867", "807", "727", "641", "548", "435", "373", "321", "264", "223", "173", "140", "112", "93", "77", "56" ]
+, [ 19, "BA8DD03D-B932-4FE7-9AB0-00D6B7D73C79", 19, 1399452742, "387776", 1399452742, "387776", "{\n}", "Louisiana", "Federal", "666", "670", "1319", "1359", "1390", "1421", "1452", "1494", "1527", "1551", "1551", "1682", "1654", "1575", "1485", "1397", "1284", "1217", "1151", "1108", "979", "911", "795", "676", "541", "377", "338", "303", "267", "229", "193", "166", "146", "137", "121", "92" ]
+, [ 20, "54FC473F-3F60-4514-B5BD-1F254065CA43", 20, 1399452742, "387776", 1399452742, "387776", "{\n}", "Maine", "State", "0", "0", "46", "51", "52", "56", "57", "60", "61", "66", "66", "62", "59", "57", "48", "45", "44", "43", "42", "42", "43", "41", "41", "36", "32", "30", "30", "29", "31", "28", "24", "18", "16", "14", "13", "13" ]
+, [ 21, "4AF55DCD-CC7B-4A25-895A-9A2502201BBA", 21, 1399452742, "387776", 1399452742, "387776", "{\n}", "Maryland", "State", "776", "1211", "1303", "1322", "1301", "1376", "1417", "1529", "1321", "1306", "1664", "1627", "1496", "1407", "1316", "1244", "1216", "1180", "1138", "1049", "999", "1000", "959", "876", "858", "741", "666", "647", "607", "551", "475", "430", "394", "348", "298", "145" ]
+, [ 22, "3D572741-5AD8-4649-A975-0487762C143B", 22, 1399452742, "387776", 1399452742, "387776", "{\n}", "Massachusetts*", "Federal", "1", "4", "14", "16", "18", "18", "20", "22", "21", "21", "21", "24", "19", "19", "17", "13", "14", "14", "14", "15", "19", "18", "17", "14", "11", "5", "4", "2", "1", "1", "1", "1", "1", "1", "0", "0" ]
+, [ 23, "F3C59292-21D0-4732-9604-95B8E8274C5F", 23, 1399452742, "387776", 1399452742, "387776", "{\n}", "Michigan", "Transitioned from State to Federally-administered program 7/1/2013", "431", "438", "1535", "1630", "1715", "1798", "1845", "1828", "2124", "2324", "2389", "2416", "2333", "2204", "2040", "2025", "1922", "1878", "1787", "1676", "1567", "1414", "1263", "1100", "974", "789", "701", "588", "527", "493", "428", "339", "274", "225", "184", "89" ]
+, [ 24, "934E0CF6-C3FE-47CB-A8C7-FDB78F695F65", 24, 1399452742, "387776", 1399452742, "387776", "{\n}", "Minnesota", "Federal", "140", "146", "676", "702", "733", "762", "790", "812", "830", "846", "846", "936", "896", "837", "796", "741", "703", "672", "633", "597", "522", "487", "424", "370", "308", "244", "200", "159", "137", "111", "86", "66", "52", "49", "37", "29" ]
+, [ 25, "4E95CEAB-BE3A-4AF6-8E86-1B17C0E848DA", 25, 1399452742, "387776", 1399452742, "387776", "{\n}", "Mississippi", "Federal", "51", "54", "238", "253", "273", "290", "310", "319", "340", "415", "415", "500", "433", "400", "347", "345", "338", "320", "317", "302", "289", "275", "260", "215", "185", "163", "156", "145", "137", "125", "115", "105", "88", "75", "71", "58" ]
+, [ 26, "316C042A-8837-4637-8FD7-D470C17A6B70", 26, 1399452742, "387776", 1399452742, "387776", "{\n}", "Missouri", "Transitioned from State to Federally-administered program 7/1/2013", "574", "580", "1627", "1699", "1744", "1803", "1830", "1824", "2138", "2211", "2309", "2341", "2245", "2139", "2104", "2056", "1957", "1804", "1766", "1664", "1563", "1477", "1367", "1254", "1229", "1031", "884", "792", "683", "561", "499", "506", "448", "322", "289", "166" ]
+, [ 27, "C8E39083-2A53-44E2-B24A-9D5F626501E0", 27, 1399452742, "387776", 1399452742, "387776", "{\n}", "Montana", "State", "0", "0", "246", "259", "272", "280", "286", "307", "325", "335", "353", "349", "346", "347", "333", "356", "346", "346", "345", "340", "331", "329", "317", "306", "294", "280", "278", "269", "262", "249", "243", "236", "222", "214", "198", "153" ]
+, [ 28, "D9860C6A-7112-4489-9DDA-66A19896AD16", 28, 1399452742, "387776", 1399452742, "387776", "{\n}", "Nebraska", "Federal", "67", "69", "340", "349", "364", "377", "390", "404", "411", "423", "423", "460", "447", "421", "398", "390", "364", "342", "328", "314", "314", "294", "266", "230", "203", "174", "162", "139", "117", "101", "86", "79", "69", "61", "49", "39" ]
+, [ 29, "7CAA73B2-D503-45C9-86F0-FD26B67A5726", 29, 1399452742, "387776", 1399452742, "387776", "{\n}", "Nevada", "Federal", "211", "216", "1058", "1098", "1122", "1165", "1194", "1231", "1269", "1300", "1300", "1473", "1442", "1373", "1320", "1274", "1210", "1137", "1081", "1035", "976", "912", "827", "747", "680", "579", "529", "470", "386", "319", "255", "222", "209", "181", "147", "125" ]
+, [ 30, "3BA441E3-C6DF-4466-B4C7-09DED7FED09E", 30, 1399452742, "387776", 1399452742, "387776", "{\n}", "New Hampshire", "Transitioned from State to Federally-administered program 7/1/2013", "125", "127", "369", "389", "410", "441", "455", "424", "630", "667", "737", "775", "693", "660", "662", "649", "627", "593", "562", "531", "510", "472", "447", "424", "378", "306", "281", "250", "233", "208", "198", "183", "170", "148", "123", "78" ]
+, [ 31, "59EE04DB-AE45-4690-8417-59FC1A0512C1", 31, 1399452742, "387776", 1399452742, "387776", "{\n}", "New Jersey", "State", "235", "434", "736", "979", "1070", "1158", "1242", "1313", "1385", "1473", "1520", "1556", "1407", "1343", "1363", "1305", "1268", "1199", "1104", "1050", "1055", "996", "946", "892", "849", "794", "795", "751", "702", "668", "740", "670", "586", "507", "416", "216" ]
+, [ 32, "DE08F8B1-4449-4B1D-A0D2-DFA49618C8B7", 32, 1399452742, "387776", 1399452742, "387776", "{\n}", "New Mexico", "State", "527", "815", "1123", "1208", "1260", "1309", "1345", "1398", "1431", "1487", "1534", "1568", "1464", "1435", "1398", "1379", "1341", "1310", "1256", "1198", "1155", "1108", "1059", "963", "904", "805", "742", "695", "645", "592", "548", "498", "426", "354", "322", "198" ]
+, [ 33, "81C9B205-DB53-4BA1-B181-1A650B1ECDE3", 33, 1399452742, "387776", 1399452742, "387776", "{\n}", "New York", "Transitioned from State to Federally-administered program 7/1/2013", "1190", "1209", "3171", "3412", "3626", "3820", "4033", "4003", "5077", "5256", "5435", "5482", "5153", "4987", "5133", "4871", "4316", "4334", "4134", "3987", "3764", "3535", "3320", "3122", "2904", "2632", "2441", "2324", "2176", "1998", "1828", "1638", "1404", "1075", "847", "411" ]
+, [ 34, "E5F853A0-48EC-410E-A61D-11041276CCE3", 34, 1399452742, "387776", 1399452742, "387776", "{\n}", "North Carolina", "Transitioned from State to Federally-administered program 7/1/2013", "282", "302", "2682", "2901", "3108", "3340", "3514", "3450", "5883", "6045", "6245", "6121", "5960", "5866", "5238", "5185", "5002", "4810", "4639", "4566", "4383", "4124", "3907", "3566", "3307", "2889", "2721", "2535", "2341", "2146", "1897", "1671", "1505", "1302", "1106", "674" ]
+, [ 35, "D9D1A0A2-D425-4AEF-8470-5667CB33D6C8", 35, 1399452742, "387776", 1399452742, "387776", "{\n}", "North Dakota", "Federal", "10", "10", "71", "78", "81", "85", "89", "92", "95", "100", "100", "108", "99", "100", "89", "85", "80", "73", "73", "71", "72", "69", "61", "49", "37", "32", "29", "27", "23", "20", "18", "13", "11", "9", "6", "5" ]
+, [ 36, "515F5F79-81C0-4F88-987D-31AAFF0843BF", 36, 1399452742, "387776", 1399452742, "387776", "{\n}", "Ohio", "Transitioned from State to Federally-administered program 7/1/2013", "703", "723", "2715", "2815", "2908", "3001", "3069", "3006", "3340", "3532", "3613", "3496", "3388", "3380", "3333", "3288", "3206", "3110", "3004", "2892", "2819", "2718", "2598", "2480", "2355", "2137", "2051", "1924", "1771", "1648", "1511", "1398", "1286", "1145", "1024", "726" ]
+, [ 37, "6784F8C7-C132-429B-A152-8CE2008EBF30", 37, 1399452742, "387776", 1399452742, "387776", "{\n}", "Oklahoma", "State", "96", "395", "806", "837", "872", "906", "924", "960", "1003", "1011", "1030", "1014", "984", "972", "952", "938", "891", "859", "829", "803", "788", "765", "731", "689", "653", "576", "555", "507", "471", "438", "410", "380", "324", "291", "262", "190" ]
+, [ 38, "7060E79B-F7B7-40C2-B1D9-CFC5DE7626E5", 38, 1399452742, "387776", 1399452742, "387776", "{\n}", "Oregon", "Transitioned from State to Federally-administered program 7/1/2013", "300", "306", "823", "870", "920", "974", "1005", "1004", "1456", "1529", "1594", "1626", "1597", "1597", "1550", "1542", "1494", "1833", "1727", "1611", "1556", "1447", "1344", "1261", "1247", "1187", "1133", "1100", "1102", "998", "993", "919", "838", "822", "734", "483" ]
+, [ 39, "8FE5AAB1-1E88-4F56-8C4D-4B33B1275792", 39, 1399452742, "387776", 1399452742, "387776", "{\n}", "Pennsylvania", "Transitioned from State to Federally-administered program 7/1/2013", "1302", "1328", "5128", "5445", "5678", "5915", "6043", "5888", "6663", "7106", "6960", "6960", "6845", "6779", "6593", "6515", "6439", "6249", "6089", "5897", "5839", "5653", "5355", "5111", "4816", "4567", "4379", "4337", "4101", "3926", "3762", "3617", "3427", "3191", "2684", "2046" ]
+, [ 40, "B478EABC-7AD0-42CE-BCB3-2630643AC387", 40, 1399452742, "387776", 1399452742, "387776", "{\n}", "Rhode Island", "State", "0", "0", "120", "135", "135", "139", "145", "146", "159", "162", "168", "172", "166", "160", "155", "163", "154", "155", "156", "155", "161", "150", "166", "160", "149", "136", "133", "140", "134", "121", "123", "125", "125", "115", "102", "85" ]
+, [ 41, "ED6FE8E1-B396-465C-80E0-CAB984EEAD66", 41, 1399452742, "387776", 1399452742, "387776", "{\n}", "South Carolina", "Federal", "374", "383", "1710", "1766", "1819", "1868", "1904", "1947", "1999", "2050", "2050", "2207", "2161", "2071", "1950", "1893", "1775", "1671", "1605", "1531", "1457", "1384", "1291", "1209", "1119", "948", "876", "798", "743", "665", "567", "504", "437", "377", "309", "242" ]
+, [ 42, "89FFDBE7-62E8-49B6-B6A5-51FFEB783A05", 42, 1399452742, "387776", 1399452742, "387776", "{\n}", "South Dakota", "Transitioned from State to Federally-administered program 7/1/2013", "23", "24", "119", "131", "134", "141", "145", "145", "195", "195", "195", "201", "210", "213", "191", "191", "185", "188", "172", "172", "190", "185", "176", "170", "173", "153", "148", "151", "133", "119", "113", "105", "104", "94", "94", "62" ]
+, [ 43, "1B36F056-9181-4730-81C5-5CC9FDB95FF9", 43, 1399452742, "387776", 1399452742, "387776", "{\n}", "Tennessee", "Federal", "305", "312", "1534", "1602", "1664", "1710", "1747", "1794", "1836", "1862", "1862", "2053", "1988", "1915", "1833", "1768", "1677", "1583", "1513", "1463", "1385", "1309", "1191", "1102", "1012", "878", "798", "721", "655", "578", "483", "419", "380", "314", "255", "171" ]
+, [ 44, "75027868-92BB-47C7-8836-116A41FD9826", 44, 1399452742, "387776", 1399452742, "387776", "{\n}", "Texas", "Federal", "1590", "1627", "7168", "7496", "7770", "8044", "8251", "8507", "8829", "9125", "9125", "10336", "10055", "9592", "9032", "8610", "8139", "7675", "7331", "6967", "6623", "6264", "5684", "5092", "4630", "4029", "3644", "3297", "2967", "2650", "2276", "2020", "1798", "1528", "1298", "1007" ]
+, [ 45, "D1B19BD5-D89A-4983-AC75-F3BC579365EE", 45, 1399452742, "387776", 1399452742, "387776", "{\n}", "Utah", "Transitioned from State to Federally-administered program 7/1/2013", "104", "107", "613", "664", "697", "736", "760", "729", "981", "1071", "1154", "1217", "1213", "1160", "1248", "1293", "1231", "1158", "1107", "1074", "1005", "918", "839", "860", "761", "696", "661", "624", "568", "512", "463", "395", "353", "286", "223", "117" ]
+, [ 46, "75B7AF1B-DB57-4519-A9E4-134A8F57FBEA", 46, 1399452742, "387776", 1399452742, "387776", "{\n}", "Vermont*", "Federal", "0", "1", "3", "3", "2", "2", "2", "1", "0", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "2", "2", "2", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 47, "7EE503AC-DE47-4075-B6DC-BF8A8662C346", 47, 1399452742, "387776", 1399452742, "387776", "{\n}", "Virginia", "Federal", "897", "910", "2412", "2520", "2598", "2678", "2756", "2824", "2915", "3014", "3015", "3252", "3114", "2893", "2521", "2445", "2294", "2158", "2020", "1882", "1796", "1707", "1498", "1343", "1191", "982", "876", "799", "693", "590", "476", "424", "370", "320", "268", "204" ]
+, [ 48, "E57E270B-6EBC-4703-9FC4-DC5F3C5FF124", 48, 1399452742, "387776", 1399452742, "387776", "{\n}", "Washington", "Transitioned from State to Federally-administered program 7/1/2013", "55", "57", "368", "387", "411", "443", "453", "448", "1044", "1074", "1106", "1106", "1034", "966", "1013", "960", "947", "926", "872", "867", "842", "805", "782", "765", "725", "708", "659", "625", "586", "531", "496", "446", "410", "341", "304", "139" ]
+, [ 49, "CCC5CBA4-3442-4E32-98C3-C22A50BCB26E", 49, 1399452742, "387776", 1399452742, "387776", "{\n}", "West Virginia", "Federal", "32", "33", "153", "163", "171", "175", "175", "176", "183", "193", "193", "209", "208", "195", "185", "173", "159", "146", "132", "131", "132", "127", "113", "108", "92", "76", "65", "56", "48", "41", "34", "30", "27", "24", "18", "15" ]
+, [ 50, "984AB8FF-DC44-45E2-AFAF-9081033089DF", 50, 1399452742, "387776", 1399452742, "387776", "{\n}", "Wisconsin", "State", "719", "708", "1939", "2091", "2091", "2137", "2195", "2252", "2297", "2346", "2393", "2326", "2186", "2075", "2013", "1955", "1872", "1806", "1715", "1656", "1546", "1463", "1373", "1256", "1159", "1000", "940", "875", "822", "772", "738", "676", "603", "547", "456", "307" ]
+, [ 51, "D5798360-7790-4991-9518-0844D469E7F4", 51, 1399452742, "387776", 1399452742, "387776", "{\n}", "Wyoming", "Federal", "48", "52", "235", "246", "251", "255", "260", "265", "272", "284", "284", "311", "306", "298", "284", "280", "257", "250", "250", "242", "230", "216", "185", "175", "164", "137", "125", "121", "113", "103", "93", "87", "80", "73", "61", "49" ]
+, [ 52, "AE82A21E-D163-4EFA-8A27-FF442D98679A", 52, 1399452742, "387776", 1399452742, "387776", "{\n}", "Total", null, "19569", "21207", "77638", "82280", "85798", "89438", "92225", "93237", "104966", "108589", "110298", "114959", "110888", "107139", "103160", "99465", "94458", "90347", "86072", "82000", "77877", "73333", "67482", "61619", "56257", "48879", "44852", "41427", "37624", "33958", "30395", "27489", "24712", "21454", "18313", "12437" ]
+ ]
+}
