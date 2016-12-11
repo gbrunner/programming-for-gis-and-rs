@@ -1,0 +1,186 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>World Wildlife Fund (WWF)</origin>
+				<pubdate>2006</pubdate>
+				<title>HydroSHEDS (DEM) - Void-filled elevation model at 30s resolution</title>
+				<pubinfo>
+					<pubplace>Sioux Falls, SD</pubplace>
+					<publish>U.S. Geological Survey</publish>
+				</pubinfo>
+				<onlink>http://hydrosheds.cr.usgs.gov</onlink>
+				<ftname>af_dem_30s</ftname><othercit>Please cite HydroSHEDS as:
+Lehner, B., Verdin, K., Jarvis, A. (2006): HydroSHEDS Technical Documentation. World Wildlife Fund US, Washington, DC. Available at http://hydrosheds.cr.usgs.gov.</othercit><onlink>http://www.worldwildlife.org/hydrosheds</onlink></citeinfo>
+		</citation>
+		<descript>
+			<abstract>HydroSHEDS (Hydrological data and maps based on SHuttle Elevation Derivatives at multiple Scales) provides hydrographic information in a consistent and comprehensive format for regional and global-scale applications. HydroSHEDS offers a suite of geo-referenced data sets (vector and raster), including stream networks, watershed boundaries, drainage directions, and ancillary data layers such as flow accumulations, distances, and river topology information. HydroSHEDS is derived from elevation data of the Shuttle Radar Topography Mission (SRTM) at 3 arc-second resolution. Available HydroSHEDS resolutions range from 3 arc-second (approx. 90 meters at the equator) to 5 minute (approx. 10 km at the equator) with seamless near-global extent.</abstract>
+			<purpose>The goal of developing HydroSHEDS was to generate key data layers to support regional and global watershed analyses, hydrological modeling, and freshwater conservation planning at a quality, resolution and extent that had previously been unachievable.</purpose>
+			<supplinf>For more information please refer to the HydroSHEDS Technical Documentation:
+Lehner, B., Verdin, K., Jarvis, A. (2006): HydroSHEDS Technical Documentation. World Wildlife Fund US, Washington, DC. Available at http://hydrosheds.cr.usgs.gov.
+Please also visit http://www.worldwildlife.org/hydrosheds and http://hydrosheds.cr.usgs.gov for information on data download and status reports.</supplinf>
+			<langdata>en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2006</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-19</westbc>
+				<eastbc>55</eastbc>
+				<northbc>38</northbc>
+				<southbc>-35</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>GCMD Parameter Keywords</themekt>
+				<themekey>Earth Science</themekey>
+				<themekey>Land Surface</themekey>
+				<themekey>Topography</themekey>
+				<themekey>Terrain Elevation</themekey>
+				<themekey>Digital Elevation Model</themekey>
+				<themekey>3-arc-second DEM</themekey>
+				<themekey>Hydrosphere</themekey>
+				<themekey>Surface Water</themekey>
+				<themekey>Drainage</themekey>
+				<themekey>Hydropattern</themekey>
+				<themekey>Rivers</themekey>
+				<themekey>Streams</themekey>
+				<themekey>Watershed Characteristics</themekey>
+				<themekey>Cartography</themekey>
+				<themekey>Mapping</themekey>
+				<themekey>GIS</themekey>
+				<themekey>EDC</themekey>
+				<themekey>EROS</themekey>
+				<themekey>USGS</themekey>
+			</theme>
+		</keywords>
+		<accconst>None.</accconst>
+		<useconst>Users may apply HydroSHEDS for non-commercial purposes. We kindly ask users to cite HydroSHEDS in any published material produced using this data. Any modification of the original data by users must be noted. The authors of HydroSHEDS may request reprints of publications and copies of derived materials. The user shall not reproduce, convert, (re)publish, (re)distribute, (re)broadcast, (re)transmit, sell, rent, lease, sublicense, lend, assign, time-share, or transfer, in whole or in part, or provide unlicensed third parties access to the data and related materials without explicit written permission from the authors. For more details see HydroSHEDS Technical Documentation.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>U.S. Geological Survey EROS Data Center</address>
+					<city>Sioux Falls</city>
+					<state>SD</state>
+					<postal>57198</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>605-594-6151</cntvoice>
+				<cntfax>605-594-6589</cntfax>
+				<cntemail>custserv@usgs.gov</cntemail>
+				<cntperp><cntper>Customer Services</cntper><cntorg>EROS Data Center</cntorg></cntperp></cntinfo>
+		</ptcontac>
+		<native>Microsoft Windows XP Professional Version 2002 Service Pack 2; ESRI ArcView 3.2a; ESRI ArcGIS 8.2</native>
+		<datacred>HydroSHEDS has been developed by the Conservation Science Program of World Wildlife Fund (WWF), in partnership with the U.S. Geological Survey (USGS), the International Centre for Tropical Agriculture (CIAT), The Nature Conservancy (TNC), and the Center for Environmental Systems Research (CESR) of the University of Kassel, Germany.</datacred><natvform>Raster dataset</natvform></idinfo>
+	<dataqual>
+		<posacc>
+			<horizpa>
+			</horizpa>
+			<vertacc>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>NASA, JPL, NGA, DLR, ASI, USGS</origin>
+						<title>SRTM Data Products</title>
+						<pubdate>2002-2005</pubdate><othercit>Data sets include:
+SRTM-3 by JPL,
+DTED-1 by USGS,
+SWBD by NGA.</othercit><onlink>http://edc.usgs.gov/products/elevation.html</onlink></citeinfo>
+				</srccite>
+				<srccitea>SRTM Data Products</srccitea>
+			</srcinfo>
+			<procstep>
+				<procdesc>HydroSHEDS is derived from elevation data of the Shuttle Radar Topography Mission (SRTM) at 3 arc-second resolution. The original SRTM data have been hydrologically conditioned using a sequence of automated procedures. Existing methods of data improvement and newly developed algorithms have been applied, including void-filling, filtering, stream burning, and upscaling techniques. Manual corrections were made where necessary. For more details please refer to the HydroSHEDS Technical Documentation.</procdesc>
+				<proccont><cntinfo><cntperp><cntper>Bernhard Lehner</cntper><cntorg>World Wildlife Fund US (WWF)</cntorg></cntperp><cntemail>hydrosheds@wwfus.org</cntemail></cntinfo></proccont></procstep>
+			<srcinfo><srccite><citeinfo><title>Auxiliary Data Products</title><onlink>http://srtm.csi.cgiar.org</onlink><onlink>http://www.maproom.psu.edu/dcw/</onlink><origin>CIAT, ESRI, WWF</origin><othercit>Data sets include:
+Void-filled SRTM data by CIAT,
+DCW and ArcWorld by ESRI,
+GLWD by WWF.</othercit><onlink>http://www.wwfus.org/science/data/globallakes.cfm</onlink></citeinfo></srccite><srccitea>Auxiliary Data Products</srccitea></srcinfo></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Raster</direct>
+		<rastinfo><rasttype>Grid Cell</rasttype><rastxsz>0.0083333333333333</rastxsz><rastysz>0.0083333333333333</rastysz><rastdtyp>Matrix Values</rastdtyp><rowcount>8760</rowcount><colcount>8880</colcount><rastorig>Upper Left</rastorig><rastband>1</rastband><rastxu>Decimal degrees</rastxu><rastyu>Decimal degrees</rastyu><rastbpp>16</rastbpp><rastnodt>-9999</rastnodt><rastifor>ESRI GRID</rastifor><rastcmap>FALSE</rastcmap><rastcomp>Default</rastcomp><vrtcount>1</vrtcount><rastityp>DEM</rastityp></rastinfo>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<geogunit>Decimal degrees</geogunit>
+			</geograph>
+			<geodetic>
+				<horizdn>D_WGS_1984</horizdn>
+				<ellips>WGS_1984</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257224</denflat>
+			</geodetic>
+			<cordsysn><geogcsn>Geographic</geogcsn></cordsysn></horizsys>
+		<vertdef><altsys><altdatum>EGM96</altdatum><altunits>Meters</altunits></altsys></vertdef>
+	</spref>
+	<eainfo>
+		<overview><eaover>The HydroSHEDS package provides a suite of various raster and vector data sets, covering many of the common derivative products used in hydrological analyses. The data is prepared in seamless mode and is provided as global or continental maps, or in five-degree by five-degree tile coverage. All elevations are in meters referenced to the WGS84 EGM96 geoid. For more attribute information please see the HydroSHEDS Technical Documentation.
+
+At this time, HydroSHEDS provides only selected core data sets at 3 arc-second and 15 arc-second resolutions, including drainage directions and elevation surfaces. A vectorized stream network is available at 15 arc-second resolution only. Future data developments are scheduled to include basins; flow accumulations; slope; aspect; wetness index; stream orders; flow distances up- and downstream; as well as seamless global products at 30 arc-second  and 5 minute resolution.</eaover><eadetcit>Please see HydroSHEDS Technical Documentation.</eadetcit></overview><detailed Name="af_dem_30s.tif.vat"><enttyp><enttypl Sync="TRUE">af_dem_30s.tif.vat</enttypl><enttypt Sync="TRUE">Table</enttypt><enttypc Sync="TRUE">4574</enttypc></enttyp><attr><attrlabl Sync="TRUE">OID</attrlabl><attalias Sync="TRUE">OID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">VALUE</attrlabl><attalias Sync="TRUE">VALUE</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">COUNT</attrlabl><attalias Sync="TRUE">COUNT</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed></eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>U.S. Geological Survey EROS Data Center</address>
+					<city>Sioux Falls</city>
+					<state>SD</state>
+					<postal>57198</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>605-594-6151</cntvoice>
+				<cntfax>605-594-6589</cntfax>
+				<cntemail>custserv@usgs.gov</cntemail>
+				<cntorgp><cntorg>EROS Data Center</cntorg></cntorgp></cntinfo>
+		</distrib>
+		<resdesc>Downloadable data.</resdesc>
+		<distliab>No warranty expressed or implied is made, either regarding the utility of the data on any system, nor shall the act of distribution constitute any such warranty. For full data disclaimer see HydroSHEDS Technical Documentation.</distliab>
+		<availabl>
+			<timeinfo>
+				<sngdate>
+					<caldate>2006</caldate>
+				</sngdate>
+			</timeinfo>
+		</availabl>
+		<stdorder><digform><digtinfo><transize>zipped</transize><dssize>56</dssize></digtinfo></digform></stdorder></distinfo>
+	<metainfo>
+		<metd>20071001</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Bernhard Lehner</cntper>
+					<cntorg>World Wildlife Fund US</cntorg>
+				</cntperp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>1250 24th Street NW</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20007</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntemail>hydrosheds@wwfus.org</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+	</metainfo>
+	<Esri><ModDate>20161210</ModDate><Sync>FALSE</Sync><DataProperties><itemProps><itemName Sync="TRUE">af_dem_30s.tif</itemName><itemLocation><linkage Sync="TRUE">file://C:\Users\greg6750\Documents\IPython Notebooks\Python_for_GIS_and_RS\Week_4\data\dems\af_dem_30s.tif</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation><imsContentType Sync="TRUE">002</imsContentType><nativeExtBox><westBL Sync="TRUE">-19.000000</westBL><eastBL Sync="TRUE">55.000000</eastBL><southBL Sync="TRUE">-35.000000</southBL><northBL Sync="TRUE">38.000000</northBL><exTypeCode Sync="TRUE">1</exTypeCode></nativeExtBox></itemProps><coordRef><type Sync="TRUE">Geographic</type><geogcsn Sync="TRUE">GCS_WGS_1984</geogcsn><csUnits Sync="TRUE">Angular Unit: Degree (0.017453)</csUnits><peXml Sync="TRUE">&lt;GeographicCoordinateSystem xsi:type='typens:GeographicCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.3'&gt;&lt;WKT&gt;GEOGCS[&amp;quot;GCS_WGS_1984&amp;quot;,DATUM[&amp;quot;D_WGS_1984&amp;quot;,SPHEROID[&amp;quot;WGS_1984&amp;quot;,6378137.0,298.257223563]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433],AUTHORITY[&amp;quot;EPSG&amp;quot;,4326]]&lt;/WKT&gt;&lt;XOrigin&gt;-400&lt;/XOrigin&gt;&lt;YOrigin&gt;-400&lt;/YOrigin&gt;&lt;XYScale&gt;11258999068426.238&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;8.983152841195215e-009&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;LeftLongitude&gt;-180&lt;/LeftLongitude&gt;&lt;WKID&gt;4326&lt;/WKID&gt;&lt;LatestWKID&gt;4326&lt;/LatestWKID&gt;&lt;/GeographicCoordinateSystem&gt;</peXml></coordRef><RasterProperties><General><PixelDepth Sync="TRUE">16</PixelDepth><HasColormap Sync="TRUE">FALSE</HasColormap><CompressionType Sync="TRUE">LZW</CompressionType><NumBands Sync="TRUE">1</NumBands><Format Sync="TRUE">TIFF</Format><HasPyramids Sync="TRUE">TRUE</HasPyramids><SourceType Sync="TRUE">continuous</SourceType><PixelType Sync="TRUE">signed integer</PixelType><NoDataValue Sync="TRUE">-32768</NoDataValue></General></RasterProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.3\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyRaster" Date="20161210" Time="200640">CopyRaster C:\Users\greg6750\Downloads\dems\af_dem_30s\af_dem_30s "C:\Users\greg6750\Documents\IPython Notebooks\Python_for_GIS_and_RS\Week_4\data\dems\af_dem_30s.tif" # # -32768 NONE NONE # NONE NONE</Process></lineage></DataProperties><SyncDate>20161210</SyncDate><SyncTime>20064000</SyncTime><ModTime>20064000</ModTime></Esri>
+	<dataIdInfo><envirDesc Sync="TRUE"> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.1.4959</envirDesc><dataLang><languageCode value="eng" Sync="TRUE"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></dataLang><idCitation><resTitle Sync="TRUE">af_dem_30s.tif</resTitle><presForm><PresFormCd value="005" Sync="TRUE"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd value="002" Sync="TRUE"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="search"><exTypeCode Sync="TRUE">1</exTypeCode><westBL Sync="TRUE">-19.000000</westBL><eastBL Sync="TRUE">55.000000</eastBL><northBL Sync="TRUE">38.000000</northBL><southBL Sync="TRUE">-35.000000</southBL></GeoBndBox></geoEle></dataExt></dataIdInfo><mdLang><languageCode value="eng" Sync="TRUE"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></mdLang><distInfo><distFormat><formatName Sync="TRUE">Raster Dataset</formatName></distFormat></distInfo><mdHrLv><ScopeCd value="005" Sync="TRUE"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><refSysInfo><RefSystem><refSysID><identCode code="4326" Sync="TRUE"></identCode><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">8.6.2</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><Georect><cellGeo><CellGeoCd Sync="TRUE" value="002"></CellGeoCd></cellGeo><numDims Sync="TRUE">2</numDims><tranParaAv Sync="TRUE">1</tranParaAv><chkPtAv Sync="TRUE">0</chkPtAv><cornerPts><pos Sync="TRUE">-19.000000 -35.000000</pos></cornerPts><cornerPts><pos Sync="TRUE">-19.000000 38.000000</pos></cornerPts><cornerPts><pos Sync="TRUE">55.000000 38.000000</pos></cornerPts><cornerPts><pos Sync="TRUE">55.000000 -35.000000</pos></cornerPts><centerPt><pos Sync="TRUE">18.000000 1.500000</pos></centerPt><axisDimension type="002"><dimSize Sync="TRUE">8880</dimSize><dimResol><value Sync="TRUE">0.008333</value></dimResol></axisDimension><axisDimension type="001"><dimSize Sync="TRUE">8760</dimSize><dimResol><value Sync="TRUE">0.008333</value></dimResol></axisDimension><ptInPixel><PixOrientCd Sync="TRUE" value="001"></PixOrientCd></ptInPixel></Georect></spatRepInfo><contInfo><ImgDesc><contentTyp><ContentTypCd Sync="TRUE" value="001"></ContentTypCd></contentTyp><covDim><Band><dimDescrp Sync="TRUE">Band_1</dimDescrp><bitsPerVal Sync="TRUE">16</bitsPerVal></Band></covDim></ImgDesc></contInfo><mdDateSt Sync="TRUE">20161210</mdDateSt></metadata>
