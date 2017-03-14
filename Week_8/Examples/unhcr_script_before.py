@@ -13,55 +13,57 @@ import json
 import os
 import arcpy
 
-year = 2016
-months = [1,2,3,4,5]
-country_fc = r'C:\Users\greg6750\Documents\IPython Notebooks\Python_for_GIS_and_RS\Week_5\data\countries.gdb\med'
-gdb = r"C:\Users\greg6750\Documents\IPython Notebooks\Python_for_GIS_and_RS\Week_5\data\unhcr.gdb"
+year = int(arcpy.GetParameterAsText(0))#2016
+month = int(arcpy.GetParameterAsText(1))#[1,2,3,4,5]
+country_fc = arcpy.GetParameterAsText(2) #r'C:\Users\greg6750\Documents\IPython Notebooks\Python_for_GIS_and_RS\Week_5\data\countries.gdb\med'
+new_country_fc = arcpy.GetParameterAsText(3)
+gdb = os.path.dirname(new_country_fc)
+#r"C:\Users\greg6750\Documents\IPython Notebooks\Python_for_GIS_and_RS\Week_5\data\unhcr.gdb"
 
-for month in months:
-    tablename = "immigration_stats_" + str(month) + "_" + str(year)
-    fields = ('COUNTRY', 'VALUE')
-    new_country_fc = country_fc+'_imm_stats_' + str(month) + '_' + str(year)
-    url =  'http://data.unhcr.org/api/stats/mediterranean/monthly_arrivals_by_country.json?year=%s&month=%s' % (year, month)
+#for month in months:
+tablename = "immigration_stats_" + str(month) + "_" + str(year)
+fields = ('COUNTRY', 'VALUE')
+#new_country_fc = country_fc+'_imm_stats_' + str(month) + '_' + str(year)
+url =  'http://data.unhcr.org/api/stats/mediterranean/monthly_arrivals_by_country.json?year=%s&month=%s' % (year, month)
 
-    #Get data with urllib2
-    data = urllib2.urlopen(url)
-    imm_data = json.load(data)
+#Get data with urllib2
+data = urllib2.urlopen(url)
+imm_data = json.load(data)
 
-    ## Parsing the data into an array
-    json_rows = []
-    for row in enumerate(imm_data):
-        temp = (row[1]['country_en'], row[1]['value'])
-        json_rows.append(temp)
-        print(temp)
+## Parsing the data into an array
+json_rows = []
+for row in enumerate(imm_data):
+    temp = (row[1]['country_en'], row[1]['value'])
+    json_rows.append(temp)
+    arcpy.AddMessage(temp)
 
-    #Create table
-    gdb_and_table = os.path.join(gdb, tablename)
+#Create table
+gdb_and_table = os.path.join(gdb, tablename)
 
-    if arcpy.Exists(gdb):
-        print(gdb +  " already exists.")
-    else:
-        print("Creating " + gdb)
-        arcpy.CreateFileGDB_management(os.path.split(gdb)[0], os.path.basename(gdb))
+if arcpy.Exists(gdb):
+    arcpy.AddMessage(gdb +  " already exists.")
+else:
+    arcpy.AddMessage("Creating " + gdb)
+    arcpy.CreateFileGDB_management(os.path.split(gdb)[0], os.path.basename(gdb))
 
-    if arcpy.Exists(os.path.join(gdb, tablename)):
-        print('Table Exists')
-    else:
-        print('Creating Table.')
-        arcpy.CreateTable_management(gdb, tablename)
+if arcpy.Exists(os.path.join(gdb, tablename)):
+    arcpy.AddMessage('Table Exists')
+else:
+    arcpy.AddMessage('Creating Table.')
+    arcpy.CreateTable_management(gdb, tablename)
 
-        ## Add fields to table
-        arcpy.AddField_management(gdb_and_table, fields[0], 'TEXT', "", "", 48)
-        arcpy.AddField_management(gdb_and_table, fields[1], "LONG", "", "", "")
+    ## Add fields to table
+    arcpy.AddField_management(gdb_and_table, fields[0], 'TEXT', "", "", 48)
+    arcpy.AddField_management(gdb_and_table, fields[1], "LONG", "", "", "")
 
-    ## Insert data into table
-    c = arcpy.da.InsertCursor(gdb_and_table,fields)
-    for row in json_rows:
-        print(row)
-        c.insertRow(row)
-    del c
+## Insert data into table
+c = arcpy.da.InsertCursor(gdb_and_table,fields)
+for row in json_rows:
+    arcpy.AddMessage(row)
+    c.insertRow(row)
+del c
 
-    ## Join Table to Existing feature class
-    country_join_field = 'NAME'
-    arcpy.CopyFeatures_management(country_fc, new_country_fc)
-    arcpy.JoinField_management (new_country_fc, country_join_field, gdb_and_table, fields[0])
+## Join Table to Existing feature class
+country_join_field = 'NAME'
+arcpy.CopyFeatures_management(country_fc, new_country_fc)
+arcpy.JoinField_management (new_country_fc, country_join_field, gdb_and_table, fields[0])
