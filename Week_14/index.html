@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Title for browser tab.</title>
+
+  <style>
+   /* this is a CSS comment */
+   .green {
+     color: green;
+     /* color: rgb(0, 128, 0); */
+     /* color: #008000; */
+   }
+   .bigger-sans-serif-text {
+     font-size: 15pt;
+     font-family: sans-serif;
+   }
+  </style>
+</head>
+
+<body>
+  <!-- this is an HTML comment -->
+
+  <h1>Hello, World!</h1>
+
+  <h2>Hello, World!</h2>
+
+  <div>This is "div".</div>
+
+  <div class="green bigger-sans-serif-text">This is "div" with several CSS classes".</div>
+
+  <a href="http://www.slu.edu/peoplefinder/index.php?query=brunner#FacStaff" target="_blank">This is a link that will open in another window.</a>
+
+  <button id="coolButton">
+    Do something!
+  </button>
+
+  <script>
+    var myName = 'Jacob';
+    console.log(myName);
+
+    var coolButton = document.getElementById('coolButton');
+
+     coolButton.addEventListener('click', function() {
+          console.log('hey, I got clicked!!!');
+          alert('Give me free pizza.');
+     });
+  </script>
+</body>
+</html>
