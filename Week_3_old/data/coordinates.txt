@@ -1,0 +1,6 @@
+ID: 1, Lat: 24.3, Lon: 101.2
+ID: 2, Lat: 25.4, Lon: 100.3
+ID: 3, Lat: 24.2, Lon: 101.1
+ID: 4, Lat: 23.7, Lon: 101.7
+ID: 5, Lat: 22.5, Lon: 103.0
+ID: 6, Lat: 22.9, Lon: 102.5
