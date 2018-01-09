@@ -19,21 +19,21 @@ This course will introduce students to Python programming and its applications t
 
 | Week    | Topics |
 |---------|--------|
-| Week 1  |  |                 
-| Week 2  |  |
-| Week 3  |  |
-| Week 4  |  |
-| Week 5  |  |
-| Week 6  |  |
-| Week 7  |  |
-| Week 8  |  |
-| Week 9  |  | 
-| Week 10 |  |
-| Week 11 |  |
-| Week 12 |  |
-| Week 13 |  |
-| Week 14 |  |
-| Week 15 |  |
+| Week 1  | Intro to Python | 
+| Week 2  | Geoprocessing and Arcpy |
+| Week 3  | Creating Your First Python Scripts and Working with CSVs and Text Files |
+| Week 4  | Manipulating GIS Data |
+| Week 5  | Creating Script Tools |
+| Week 6  | Manipulating Spatial Data |
+| Week 7  | Working with Geometries |
+| Week 8  | Debugging, Functions, and Analysis |
+| Week 9  | Intro to Github and Working with Rasters | 
+| Week 10 | Managing Collections of Rasters |
+| Week 11 | Map Scripting |
+| Week 12 | Numpy, Matplotlib, and Cursors |
+| Week 13 | Intro to Jupyter and the ArcGIS API for Python|
+| Week 14 | Intro to Javascript and Web Development|
+| Week 15 | Final Project Presentations |
 
 ## Assignments & Grading
 | Weight | Type |
