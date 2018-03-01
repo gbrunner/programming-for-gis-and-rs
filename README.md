@@ -17,23 +17,23 @@ This course will introduce students to Python programming and its applications t
 
 ## Course Schedule
 
-| Week    | Topics |
-|---------|--------|
-| Week 1  | Intro to Python | 
-| Week 2  | Geoprocessing and Arcpy |
-| Week 3  | Creating Your First Python Scripts and Working with CSVs and Text Files |
-| Week 4  | Manipulating GIS Data |
-| Week 5  | Creating Script Tools |
-| Week 6  | Manipulating Spatial Data |
-| Week 7  | Working with Geometries |
-| Week 8  | Debugging, Functions, and Analysis |
-| Week 9  | Intro to Github and Working with Rasters | 
-| Week 10 | Managing Collections of Rasters |
-| Week 11 | Map Scripting |
-| Week 12 | Numpy, Matplotlib, and Cursors |
-| Week 13 | Intro to Jupyter and the ArcGIS API for Python|
-| Week 14 | Intro to Javascript and Web Development|
-| Week 15 | Final Project Presentations |
+| Week    | Date | Topics |
+|---------|------|--------|
+| Week 1  | 1/17 | Intro to Python | 
+| Week 2  | 1/24 | Geoprocessing and Arcpy |
+| Week 3  | 1/31 | Creating Your First Python Scripts and Working with CSVs and Text Files |
+| Week 4  | 2/7  | Exploring Spatial Data |
+| Week 5  | 2/14 | Cursors |
+| Week 6  | 2/21 | Geometries |
+| Week 7  | 2/28 | Debugging and Functions |
+| Week 8  | 3/7  | Creating Custom GP Tools with Python |
+| Week 9  | 3/21 | Map Scripting |
+| Week 10 | 3/28 | Intro to Github and Working with Rasters | 
+| Week 11 | 4/4  | Managing Collections of Rasters |
+| Week 12 | 4/11 | Matplotlib & Numpy |
+| Week 13 | 4/18 | WebGIS & Services |
+| Week 14 | 4/25 | Intro to Javascript and Web Development|
+| Week 15 | 5/2  | Final Project Presentations |
 
 ## Assignments & Grading
 | Weight | Type |
