@@ -27,6 +27,7 @@ This course will introduce students to Python programming and its applications t
 | Week 6  | 2/21 | Geometries |
 | Week 7  | 2/28 | Debugging and Functions |
 | Week 8  | 3/7  | Creating Custom GP Tools with Python |
+| Spring Break | 3/14 | Reading and Exercise on GP Tools with Python and Python Toolboxes |
 | Week 9  | 3/21 | Map Scripting |
 | Week 10 | 3/28 | Intro to Github and Working with Rasters | 
 | Week 11 | 4/4  | Managing Collections of Rasters |
