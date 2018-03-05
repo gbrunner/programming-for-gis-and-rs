@@ -32,7 +32,7 @@ This course will introduce students to Python programming and its applications t
 | Week 10 | 3/28 | Intro to Github and Working with Rasters | 
 | Week 11 | 4/4  | Managing Collections of Rasters |
 | Week 12 | 4/11 | WebGIS & Services |
-| Week 13 | 4/18 | Intro to Javascript and Web Development (Gues Lecture by [Jacob Wasilkowski](https://jwasilgeo.github.io/) |
+| Week 13 | 4/18 | Intro to Javascript and Web Development (Lecture by [Jacob Wasilkowski](https://jwasilgeo.github.io/)) |
 | Week 14 | 4/25 | Matplotlib & Numpy |
 | Week 15 | 5/2  | Final Project Presentations |
 
