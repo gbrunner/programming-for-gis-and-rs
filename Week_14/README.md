@@ -175,19 +175,25 @@ Obligatory JS meme
 
 - Intros to [ArcGIS API for JavaScript](https://js.arcgis.com) and [LeafletJS](http://leafletjs.com/)
 
-- **Hands on:** getting started with [JS Bin](https://jsbin.com)
+- Getting started with [JS Bin](https://jsbin.com)
 
   - Why? Your browser will block functionality if browsing files directly from hard drive. You must use a web server. JS Bin is interactive and easy to experiment with, just like Python Notebooks.
 
-- **Challenge:**
+- Leaflet challenge:
 
-  - change the map's initial position to be centered & zoomed to St. Louis
+  1. Copy and paste the contents of `leaflet-demo.html` into a new JS Bin.
 
-  - change the basemap
+  2. Set the map's initial position to be centered at and zoomed to St. Louis.
 
-- **Hands on:** add a "feature layer" to the web map
+  3. Change the basemap to a [different Esri basemap](http://esri.github.io/esri-leaflet/api-reference/layers/basemap-layer.html).
 
-- **Challenge:** make it 3D! Super easy with [`SceneView`](https://developers.arcgis.com/javascript/latest/api-reference/esri-views-SceneView.html).
+  4. Add a ["marker" positioned at SLU](http://leafletjs.com/examples/quick-start/#markers-circles-and-polygons) onto the map.
+
+- Esri challenge:
+
+  1. Copy and paste the contents of `esri-demo.html` into a new JS Bin.
+
+  2. Make the Esri demo into 3D! You can instruct the code to use a [`SceneView`](https://developers.arcgis.com/javascript/latest/api-reference/esri-views-SceneView.html) instead of a `MapView`.
 
 ## :octocat: GitHub Pages
 
