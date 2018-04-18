@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Title for browser tab.</title>
+
+  <style>
+    /* this is a CSS comment */
+
+    .green {
+      color: green;
+      /* color: rgb(0, 128, 0); */
+      /* color: #008000; */
+    }
+
+    .italic-sans-serif-text {
+      font-style: italic;
+      font-family: sans-serif;
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- this is an HTML comment -->
+
+  <h1>
+    Hello, World! (I'm an "h1" element).
+  </h1>
+
+  <h2 class="green">
+    Hello, World! (I'm an "h2" element with a CSS class.)
+  </h2>
+
+  <div>
+    This is a "div" element.
+  </div>
+
+  <div class="green italic-sans-serif-text">
+    This is a "div" with several CSS classes.
+  </div>
+
+  <a href="http://www.slu.edu/peoplefinder/index.php?query=brunner#FacStaff" target="_blank">
+    This is a link that will open in another window.
+  </a>
+
+  <div>
+    Here is a "button" element inside of a "div" element.
+    <button id="coolButtonID">
+      Increase the clickCount variable.
+    </button>
+  </div>
+
+  <script>
+    // this is a JavaScript comment
+
+    var clickCount = 0;
+
+    var aRandomPhrase = 'I really want a slice of pizza.';
+
+    console.log(aRandomPhrase);
+
+    var coolButton = document.getElementById('coolButtonID');
+
+    coolButton.addEventListener('click', function() {
+      console.log('Hey, I got clicked!');
+
+      clickCount = clickCount + 1;
+      // another way to write the same command would be:
+      // clickCount += 1;
+
+      console.log('clickCount: ', clickCount);
+    });
+  </script>
+</body>
+
+</html>

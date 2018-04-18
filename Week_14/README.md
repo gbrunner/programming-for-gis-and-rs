@@ -1,16 +1,14 @@
 # Web Mapping Development Intro
 
-25 April 2017
+April 2018
 
-Jacob Wasilkowski, Esri
-
-[https://jwasilgeo.github.io](https://jwasilgeo.github.io)
+Jacob Wasilkowski, [https://jwasilgeo.github.io](https://jwasilgeo.github.io)
 
 ## Intro to HTML, CSS, and JavaScript
 
-- What's the purpose of each and how do they work together?
+What's the purpose of each and how do they work together?
 
-- Devs are lazy (_supposedly_), here's a link: [https://developer.mozilla.org/en-US/docs/Web](https://developer.mozilla.org/en-US/docs/Web)
+Developers are lazy (_supposedly!_). Here's a link to save us some time: [https://developer.mozilla.org/en-US/docs/Web](https://developer.mozilla.org/en-US/docs/Web)
 
 ## JavaScript: syntax intro
 
@@ -83,11 +81,11 @@ if (1 === 2) {
 console.log(whatHappened);
 ```
 
-- **Important**: start thinking in terms of user interaction **"events"**, instead of _just_ top-to-bottom script execution.
+**Start thinking in terms of user interaction _"events"_ instead of top-to-bottom script execution.**
 
-- Obligatory JS meme pic:
+Obligatory JS meme
 
-  ![](https://pbs.twimg.com/media/B-SjB7XIcAAoOzU.jpg)
+![JS meme](https://pbs.twimg.com/media/B-SjB7XIcAAoOzU.jpg)
 
 ## HTML and CSS and JavaScript
 
@@ -96,65 +94,104 @@ console.log(whatHappened);
   ```html
   <!DOCTYPE html>
   <html>
+
   <head>
     <title>Title for browser tab.</title>
 
     <style>
-     /* this is a CSS comment */
-     .green {
-       color: green;
-       /* color: rgb(0, 128, 0); */
-       /* color: #008000; */
-     }
-     .bigger-sans-serif-text {
-       font-size: 15pt;
-       font-family: sans-serif;
-     }
+      /* this is a CSS comment */
+
+      .green {
+        color: green;
+        /* color: rgb(0, 128, 0); */
+        /* color: #008000; */
+      }
+
+      .italic-sans-serif-text {
+        font-style: italic;
+        font-family: sans-serif;
+      }
+
     </style>
   </head>
 
   <body>
     <!-- this is an HTML comment -->
 
-    <h1>Hello, World!</h1>
+    <h1>
+      Hello, World! (I'm an "h1" element).
+    </h1>
 
-    <h2>Hello, World!</h2>
+    <h2 class="green">
+      Hello, World! (I'm an "h2" element with a CSS class.)
+    </h2>
 
-    <div>This is "div".</div>
+    <div>
+      This is a "div" element.
+    </div>
 
-    <div class="green bigger-sans-serif-text">This is "div" with several CSS classes".</div>
+    <div class="green italic-sans-serif-text">
+      This is a "div" with several CSS classes.
+    </div>
 
-    <a href="http://www.slu.edu/peoplefinder/index.php?query=brunner#FacStaff" target="_blank">This is a link that will open in another window.</a>
+    <a href="http://www.slu.edu/peoplefinder/index.php?query=brunner#FacStaff" target="_blank">
+      This is a link that will open in another window.
+    </a>
+
+    <div>
+      Here is a "button" element inside of a "div" element.
+      <button id="coolButtonID">
+        Increase the clickCount variable.
+      </button>
+    </div>
 
     <script>
-      // this is a JS comment
+      // this is a JavaScript comment
+
+      var clickCount = 0;
+
+      var aRandomPhrase = 'I really want a slice of pizza.';
+
+      console.log(aRandomPhrase);
+
+      var coolButton = document.getElementById('coolButtonID');
+
+      coolButton.addEventListener('click', function() {
+        console.log('Hey, I got clicked!');
+
+        clickCount = clickCount + 1;
+        // another way to write the same command would be:
+        // clickCount += 1;
+
+        console.log('clickCount: ', clickCount);
+      });
     </script>
   </body>
+
   </html>
   ```
 
 ## Let's get mappy in the browser
 
-- Intro to [ArcGIS API for JavaScript](https://js.arcgis.com)
-
-- Walk through code in ["Get started with MapView - Create a 2D map"](https://developers.arcgis.com/javascript/latest/sample-code/get-started-mapview/index.html)
+- Intros to [ArcGIS API for JavaScript](https://js.arcgis.com) and [LeafletJS](http://leafletjs.com/)
 
 - **Hands on:** getting started with [JS Bin](https://jsbin.com)
+
   - Why? Your browser will block functionality if browsing files directly from hard drive. You must use a web server. JS Bin is interactive and easy to experiment with, just like Python Notebooks.
 
 - **Challenge:**
-  - change web map to be centered on and zoomed in to St. Louis
-  - change the basemap
 
-- **Hands on:** work with HTML layout elements and CSS to create a floating "title" and a "side panel"
+  - change the map's initial position to be centered & zoomed to St. Louis
+
+  - change the basemap
 
 - **Hands on:** add a "feature layer" to the web map
 
 - **Challenge:** make it 3D! Super easy with [`SceneView`](https://developers.arcgis.com/javascript/latest/api-reference/esri-views-SceneView.html).
 
-## Finale :octocat:
+## :octocat: GitHub Pages
 
-- Did you know? GitHub can host your [project website](https://help.github.com/articles/user-organization-and-project-pages/#project-pages) in each repo. You can go from :weary: to :sunglasses: in no time.
+GitHub can host your [project website](https://help.github.com/categories/github-pages-basics/) in each repo. You can go from :weary: to :sunglasses: in no time.
 
 ## Resources
 
@@ -162,11 +199,13 @@ console.log(whatHappened);
 
 - [ArcGIS Geodev Hackerlabs](https://github.com/Esri/geodev-hackerlabs)
 
-- ["JavaScript: The Good Parts"](http://ezp.slu.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&db=cat00825a&AN=slu.b3608207&site=eds-live), Douglas Crockford (2008).
+- [LeafletJS](http://leafletjs.com/) (and optionally the [Esri-Leaflet plugin](http://esri.github.io/esri-leaflet/))
+
+- ["JavaScript: The Good Parts", Douglas Crockford (2008)](http://lib.slu.edu/)
   - A must-read which will go by quickly! It is available at SLU Libraries...you don't really have a good excuse to avoid this book.
 
 - [JavaScript for Cats](http://jsforcats.com/) :cat2: :cat2: :cat2:
 
 - [Mozilla Developer Network: JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-- [DevDocs.io](http://devdocs.io/)
+- [DevDocs.io](https://devdocs.io/)
