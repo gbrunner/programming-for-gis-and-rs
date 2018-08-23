@@ -210,8 +210,12 @@ GitHub can host your [project website](https://help.github.com/categories/github
 - ["JavaScript: The Good Parts", Douglas Crockford (2008)](http://lib.slu.edu/)
   - A must-read which will go by quickly! It is available at SLU Libraries...you don't really have a good excuse to avoid this book.
 
-- [JavaScript for Cats](http://jsforcats.com/) :cat2: :cat2: :cat2:
+- [JavaScript for Cats](http://jsforcats.com/) :cat2: :cat: :cat2:
 
-- [Mozilla Developer Network: JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Mozilla Dev Network: JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+- [Mozilla Dev Network: A re-introduction to JavaScript (JS tutorial)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
+
+- [The Modern JavaScript Tutorial](https://javascript.info/)
 
 - [DevDocs.io](https://devdocs.io/)
