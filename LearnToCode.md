@@ -1,0 +1,1 @@
+Watch this awesome introduction to Python - https://www.youtube.com/watch?v=rkx5_MRAV3A
