@@ -6,6 +6,7 @@
 
 # Getting Data into ArcGIS Notebooks
 **Move this lesson to Unit 2**
+
 [Complete this exercises to unerstand how to get data into ArcGIS Notebooks.](https://www.arcgis.com/home/item.html?id=fe8a61ca94c54e6e8e62c2faed0b68cf)
 
 # This Week's Notebooks
@@ -20,10 +21,10 @@ Attached Files:
 # Data for Demos
 Attached Files:
 
-    File csv_demo_data.zip Click for more options (92.708 MB)
+    File csv_demo_data.zip Click for more options (92.708 MB) on Google Drive.
     File data.zip Click for more options (2.293 MB)
     File describe_demo_data.zip Click for more options (2.292 MB)
-    File dems.zip Click for more options (273.416 MB)
+    File dems.zip Click for more options (273.416 MB) on Google Drive.
     File Singapore_Data.gdb.zip Click for more options (1.433 MB)  
     
 
