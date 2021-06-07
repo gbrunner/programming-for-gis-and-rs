@@ -1,0 +1,7 @@
+1. What does IDE stand for?
+Integrated Development Environment
+2. What is the extension of a Python script file?
+.py
+3. What is the extension of a Jupyter notebook (or ArcGIS Notebook)
+file? Hint: Download an ArcGIS Notebook.
+.ipynb

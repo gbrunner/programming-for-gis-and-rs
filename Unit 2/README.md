@@ -12,7 +12,8 @@ Attached Files:
 
 # Data and Notebooks
 This week's lecture notebooks can be found 
-at https://slustl.maps.arcgis.com/home/group.html?id=724c1bfb085843debf8f1020b3654045#overview .
+at on ArcGIS Online in the [
+GIS 4090\5090 Unit 2 Notebooks](https://slustl.maps.arcgis.com/home/group.html?id=724c1bfb085843debf8f1020b3654045#overview).
 
 There is an [ArcGIS Pro package](https://slustl.maps.arcgis.com/home/item.html?id=3179070f893247d6bc7be395ee9ff9c8) there that you can download that 
 I will use for the lecture.
