@@ -1,1 +1,0 @@
-Solution in ArcGIS Online as ArcGIS Notebook: https://slustl.maps.arcgis.com/home/item.html?id=2348e74c489a49edbbabc317bf50c3a6
